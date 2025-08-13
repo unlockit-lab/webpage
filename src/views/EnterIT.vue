@@ -411,16 +411,27 @@
         <div class="flex flex-col lg:flex-row items-center gap-12 max-w-5xl mx-auto">
           <div class="lg:w-1/3">
             <div class="relative">
-              <div
-                class="w-64 h-64 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mx-auto shadow-2xl"
-              >
-                <svg class="w-32 h-32 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
+              <div class="w-64 h-64 rounded-full mx-auto shadow-2xl overflow-hidden bg-gray-100">
+                <!-- Profile Image -->
+                <img
+                  src="https://images.pexels.com/photos/30712847/pexels-photo-30712847.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop&crop=face"
+                  alt="Michał Wroński - IT Career Coach"
+                  class="w-full h-full object-cover object-center"
+                  @error="handleImageError"
+                />
+                <!-- Fallback SVG (hidden by default, shown if image fails) -->
+                <div
+                  v-if="showFallback"
+                  class="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center"
+                >
+                  <svg class="w-32 h-32 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
               </div>
               <!-- LinkedIn Badge -->
               <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
