@@ -464,5 +464,65 @@
 </template>
 
 <script setup lang="ts">
-// EnterIT webinar page component
+import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t, locale } = useI18n()
+
+// Set webinar date - 15 days from now at 7:00 PM
+const webinarTargetDate = new Date()
+webinarTargetDate.setDate(webinarTargetDate.getDate() + 15)
+webinarTargetDate.setHours(19, 0, 0, 0) // 7:00 PM
+
+const timeLeft = ref({
+  days: 0,
+  hours: 0,
+  minutes: 0,
+  seconds: 0
+})
+
+let countdownInterval: NodeJS.Timeout | null = null
+
+const updateCountdown = () => {
+  const now = new Date().getTime()
+  const target = webinarTargetDate.getTime()
+  const difference = target - now
+
+  if (difference > 0) {
+    timeLeft.value = {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+      minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
+      seconds: Math.floor((difference % (1000 * 60)) / 1000)
+    }
+  } else {
+    timeLeft.value = { days: 0, hours: 0, minutes: 0, seconds: 0 }
+    if (countdownInterval) {
+      clearInterval(countdownInterval)
+    }
+  }
+}
+
+const webinarDate = computed(() => {
+  const date = webinarTargetDate.toLocaleDateString(locale.value === 'pl' ? 'pl-PL' : 'en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  })
+  return date
+})
+
+onMounted(() => {
+  updateCountdown()
+  countdownInterval = setInterval(updateCountdown, 1000)
+})
+
+onUnmounted(() => {
+  if (countdownInterval) {
+    clearInterval(countdownInterval)
+  }
+})
 </script>
