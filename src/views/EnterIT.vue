@@ -23,23 +23,41 @@
         <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-4xl mx-auto mb-8">
           <!-- Countdown Timer -->
           <div class="text-center mb-8">
-            <h3 class="text-lg font-semibold text-gray-900 mb-4">{{ $t('enterit.countdown.title') }}</h3>
+            <h3 class="text-lg font-semibold text-gray-900 mb-4">
+              {{ $t('enterit.countdown.title') }}
+            </h3>
             <div class="grid grid-cols-4 gap-4 max-w-md mx-auto">
-              <div class="bg-gradient-to-br from-primary-500 to-primary-600 rounded-lg p-4 text-white">
+              <div
+                class="bg-gradient-to-br from-primary-500 to-primary-600 rounded-lg p-4 text-white"
+              >
                 <div class="text-2xl font-bold">{{ timeLeft.days }}</div>
-                <div class="text-xs uppercase tracking-wide">{{ $t('enterit.countdown.days') }}</div>
+                <div class="text-xs uppercase tracking-wide">
+                  {{ $t('enterit.countdown.days') }}
+                </div>
               </div>
-              <div class="bg-gradient-to-br from-success-500 to-success-600 rounded-lg p-4 text-white">
+              <div
+                class="bg-gradient-to-br from-success-500 to-success-600 rounded-lg p-4 text-white"
+              >
                 <div class="text-2xl font-bold">{{ timeLeft.hours }}</div>
-                <div class="text-xs uppercase tracking-wide">{{ $t('enterit.countdown.hours') }}</div>
+                <div class="text-xs uppercase tracking-wide">
+                  {{ $t('enterit.countdown.hours') }}
+                </div>
               </div>
-              <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-4 text-white">
+              <div
+                class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-4 text-white"
+              >
                 <div class="text-2xl font-bold">{{ timeLeft.minutes }}</div>
-                <div class="text-xs uppercase tracking-wide">{{ $t('enterit.countdown.minutes') }}</div>
+                <div class="text-xs uppercase tracking-wide">
+                  {{ $t('enterit.countdown.minutes') }}
+                </div>
               </div>
-              <div class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg p-4 text-white">
+              <div
+                class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg p-4 text-white"
+              >
                 <div class="text-2xl font-bold">{{ timeLeft.seconds }}</div>
-                <div class="text-xs uppercase tracking-wide">{{ $t('enterit.countdown.seconds') }}</div>
+                <div class="text-xs uppercase tracking-wide">
+                  {{ $t('enterit.countdown.seconds') }}
+                </div>
               </div>
             </div>
             <p class="text-sm text-gray-500 mt-4">{{ webinarDate }}</p>
@@ -478,7 +496,7 @@ const timeLeft = ref({
   days: 0,
   hours: 0,
   minutes: 0,
-  seconds: 0
+  seconds: 0,
 })
 
 let countdownInterval: NodeJS.Timeout | null = null
@@ -493,7 +511,7 @@ const updateCountdown = () => {
       days: Math.floor(difference / (1000 * 60 * 60 * 24)),
       hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
       minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
-      seconds: Math.floor((difference % (1000 * 60)) / 1000)
+      seconds: Math.floor((difference % (1000 * 60)) / 1000),
     }
   } else {
     timeLeft.value = { days: 0, hours: 0, minutes: 0, seconds: 0 }
@@ -510,7 +528,7 @@ const webinarDate = computed(() => {
     month: 'long',
     day: 'numeric',
     hour: '2-digit',
-    minute: '2-digit'
+    minute: '2-digit',
   })
   return date
 })
