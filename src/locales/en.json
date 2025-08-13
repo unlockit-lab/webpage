@@ -82,8 +82,14 @@
     "title": "EnterIT",
     "subtitle": "Your complete guide to breaking into the IT industry. Learn essential strategies for job searching, interview preparation, networking with recruiters, and leveraging AI for accelerated learning.",
     "date": {
-      "title": "Date",
-      "value": "Coming Soon"
+      "title": "Date"
+    },
+    "countdown": {
+      "title": "Time Until Webinar",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
     },
     "duration": {
       "title": "Duration",
