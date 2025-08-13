@@ -4,14 +4,7 @@
     <nav class="fixed w-full top-0 bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
-          <div class="flex items-center space-x-2">
-            <div class="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-              <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"/>
-              </svg>
-            </div>
-            <span class="text-xl font-bold text-gray-900">UnlockIT</span>
-          </div>
+          <UnlockITLogo :size="32" :show-text="true" :show-tagline="false" />
           <div class="hidden md:flex items-center space-x-8">
             <a href="#courses" class="text-gray-600 hover:text-primary-600 font-medium transition-colors">{{ $t('nav.courses') }}</a>
             <a href="#about" class="text-gray-600 hover:text-primary-600 font-medium transition-colors">{{ $t('nav.about') }}</a>
@@ -325,14 +318,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-4 gap-8">
           <div class="col-span-2">
-            <div class="flex items-center space-x-2 mb-4">
-              <div class="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"/>
-                </svg>
-              </div>
-              <span class="text-xl font-bold">UnlockIT</span>
-            </div>
+            <UnlockITLogo :size="32" :show-text="true" :show-tagline="true" variant="dark" class="mb-4" />
             <p class="text-gray-400 mb-4 max-w-md">
               {{ $t('footer.description') }}
             </p>
