@@ -82,8 +82,14 @@
     "title": "EnterIT",
     "subtitle": "Twój kompletny przewodnik po wejściu do branży IT. Poznaj kluczowe strategie poszukiwania pracy, przygotowania do rozmów kwalifikacyjnych, nawiązywania kontaktów z rekruterami i wykorzystania AI do przyspieszonej nauki.",
     "date": {
-      "title": "Data",
-      "value": "Wkrótce"
+      "title": "Data"
+    },
+    "countdown": {
+      "title": "Czas do Webinaru",
+      "days": "Dni",
+      "hours": "Godzin",
+      "minutes": "Minut",
+      "seconds": "Sekund"
     },
     "duration": {
       "title": "Czas trwania",
