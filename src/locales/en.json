@@ -75,5 +75,71 @@
     "webDevDescription": "Build websites",
     "itSkills": "IT Skills",
     "itDescription": "Tech essentials"
+  },
+  "enterit": {
+    "badge": "Free Webinar",
+    "title": "EnterIT",
+    "subtitle": "Your complete guide to breaking into the IT industry. Learn essential strategies for job searching, interview preparation, networking with recruiters, and leveraging AI for accelerated learning.",
+    "date": {
+      "title": "Date",
+      "value": "Coming Soon"
+    },
+    "duration": {
+      "title": "Duration",
+      "value": "90 minutes"
+    },
+    "format": {
+      "title": "Format",
+      "value": "Live Online"
+    },
+    "registerButton": "Reserve Your Spot",
+    "freeEvent": "100% Free Event - Limited Seats Available",
+    "whatYoullLearn": {
+      "title": "What You'll Learn",
+      "subtitle": "Get practical, actionable strategies to kickstart your IT career"
+    },
+    "modules": {
+      "jobSearch": {
+        "title": "How to Start Looking for a Job in IT",
+        "point1": "Identify the best entry-level positions for your background",
+        "point2": "Create a compelling portfolio even without experience",
+        "point3": "Navigate job boards and company websites effectively"
+      },
+      "interview": {
+        "title": "How to Prepare for Interviews",
+        "point1": "Master common technical and behavioral interview questions",
+        "point2": "Demonstrate your skills through practical examples",
+        "point3": "Handle salary negotiations and follow-up communications"
+      },
+      "recruiters": {
+        "title": "How to Find Recruiters",
+        "point1": "Build a professional network on LinkedIn and other platforms",
+        "point2": "Connect with IT recruiters in your target companies",
+        "point3": "Maintain relationships and get referrals"
+      },
+      "aiLearning": {
+        "title": "How to Learn with AI",
+        "point1": "Use AI tools to accelerate your learning process",
+        "point2": "Get personalized learning paths and practice exercises",
+        "point3": "Stay updated with the latest technologies and trends"
+      }
+    },
+    "speaker": {
+      "title": "Meet Your Speaker",
+      "subtitle": "Learn from an industry expert with proven results",
+      "name": "Expert Speaker",
+      "role": "Senior IT Career Coach & UnlockIT Founder",
+      "bio": "With over 10 years of experience in the IT industry and having helped hundreds of professionals transition into successful tech careers, our speaker will share insider knowledge and proven strategies that work in today's competitive market.",
+      "experience": "10+ Years Experience",
+      "expertise1": "Career Coaching",
+      "expertise2": "AI & Technology"
+    },
+    "finalCta": {
+      "title": "Ready to Launch Your IT Career?",
+      "subtitle": "Join us for this exclusive webinar and take the first step towards your dream job in technology.",
+      "primaryButton": "Register for Free",
+      "secondaryButton": "Learn More",
+      "note": "Limited seats available. Registration closes when full."
+    }
   }
 }
