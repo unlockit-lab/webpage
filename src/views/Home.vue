@@ -5,9 +5,13 @@
       <div class="max-w-7xl mx-auto">
         <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
           <div class="mb-12 lg:mb-0">
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 animate-slide-up">
+            <h1
+              class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 animate-slide-up"
+            >
               {{ $t('hero.title') }}
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-primary-800">
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-primary-800"
+              >
                 {{ $t('hero.titleHighlight') }}
               </span>
             </h1>
@@ -15,29 +19,45 @@
               {{ $t('hero.subtitle') }}
             </p>
             <div class="flex flex-col sm:flex-row gap-4 animate-slide-up">
-              <button class="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <button
+                class="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              >
                 {{ $t('hero.startLearning') }}
               </button>
-              <button class="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:border-primary-600 hover:text-primary-600 transition-colors">
+              <button
+                class="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:border-primary-600 hover:text-primary-600 transition-colors"
+              >
                 {{ $t('hero.viewCourses') }}
               </button>
             </div>
             <div class="mt-8 flex items-center space-x-6 text-sm text-gray-500">
               <div class="flex items-center space-x-2">
                 <svg class="w-5 h-5 text-success-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
                 <span>{{ $t('hero.students') }}</span>
               </div>
               <div class="flex items-center space-x-2">
                 <svg class="w-5 h-5 text-success-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
                 <span>{{ $t('hero.instructors') }}</span>
               </div>
               <div class="flex items-center space-x-2">
                 <svg class="w-5 h-5 text-success-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
                 <span>{{ $t('hero.jobReady') }}</span>
               </div>
@@ -45,49 +65,81 @@
           </div>
           <div class="relative">
             <div class="relative z-10 animate-float">
-              <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-2xl">
+              <div
+                class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-2xl"
+              >
                 <div class="grid grid-cols-2 gap-4">
                   <div class="bg-white rounded-lg p-4 shadow-md">
-                    <div class="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center mb-3">
+                    <div
+                      class="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center mb-3"
+                    >
                       <svg class="w-5 h-5 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
-                    <h3 class="font-semibold text-gray-900 mb-1">{{ $t('courseCards.aiBasics') }}</h3>
+                    <h3 class="font-semibold text-gray-900 mb-1">
+                      {{ $t('courseCards.aiBasics') }}
+                    </h3>
                     <p class="text-sm text-gray-600">{{ $t('courseCards.aiDescription') }}</p>
                   </div>
                   <div class="bg-white rounded-lg p-4 shadow-md">
-                    <div class="w-8 h-8 bg-success-100 rounded-lg flex items-center justify-center mb-3">
+                    <div
+                      class="w-8 h-8 bg-success-100 rounded-lg flex items-center justify-center mb-3"
+                    >
                       <svg class="w-5 h-5 text-success-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                        <path
+                          d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                        />
                       </svg>
                     </div>
-                    <h3 class="font-semibold text-gray-900 mb-1">{{ $t('courseCards.programming') }}</h3>
-                    <p class="text-sm text-gray-600">{{ $t('courseCards.programmingDescription') }}</p>
+                    <h3 class="font-semibold text-gray-900 mb-1">
+                      {{ $t('courseCards.programming') }}
+                    </h3>
+                    <p class="text-sm text-gray-600">
+                      {{ $t('courseCards.programmingDescription') }}
+                    </p>
                   </div>
                   <div class="bg-white rounded-lg p-4 shadow-md">
-                    <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center mb-3">
+                    <div
+                      class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center mb-3"
+                    >
                       <svg class="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                        <path
+                          fill-rule="evenodd"
+                          d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+                          clip-rule="evenodd"
+                        />
                       </svg>
                     </div>
                     <h3 class="font-semibold text-gray-900 mb-1">{{ $t('courseCards.webDev') }}</h3>
                     <p class="text-sm text-gray-600">{{ $t('courseCards.webDevDescription') }}</p>
                   </div>
                   <div class="bg-white rounded-lg p-4 shadow-md">
-                    <div class="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center mb-3">
+                    <div
+                      class="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center mb-3"
+                    >
                       <svg class="w-5 h-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                        <path
+                          fill-rule="evenodd"
+                          d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                          clip-rule="evenodd"
+                        />
                       </svg>
                     </div>
-                    <h3 class="font-semibold text-gray-900 mb-1">{{ $t('courseCards.itSkills') }}</h3>
+                    <h3 class="font-semibold text-gray-900 mb-1">
+                      {{ $t('courseCards.itSkills') }}
+                    </h3>
                     <p class="text-sm text-gray-600">{{ $t('courseCards.itDescription') }}</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="absolute -bottom-4 -right-4 w-72 h-72 bg-gradient-to-br from-primary-200 to-primary-300 rounded-full opacity-20 animate-pulse"></div>
-            <div class="absolute -top-4 -left-4 w-48 h-48 bg-gradient-to-br from-success-200 to-success-300 rounded-full opacity-20 animate-pulse"></div>
+            <div
+              class="absolute -bottom-4 -right-4 w-72 h-72 bg-gradient-to-br from-primary-200 to-primary-300 rounded-full opacity-20 animate-pulse"
+            ></div>
+            <div
+              class="absolute -top-4 -left-4 w-48 h-48 bg-gradient-to-br from-success-200 to-success-300 rounded-full opacity-20 animate-pulse"
+            ></div>
           </div>
         </div>
       </div>
@@ -104,39 +156,53 @@
             {{ $t('features.subtitle') }}
           </p>
         </div>
-        
+
         <div class="grid md:grid-cols-3 gap-8">
           <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
             <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
               <svg class="w-7 h-7 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.84L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
+                <path
+                  d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.84L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"
+                />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ $t('features.beginnerFriendly.title') }}</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              {{ $t('features.beginnerFriendly.title') }}
+            </h3>
             <p class="text-gray-600 leading-relaxed">
               {{ $t('features.beginnerFriendly.description') }}
             </p>
           </div>
-          
+
           <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
             <div class="w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center mb-6">
               <svg class="w-7 h-7 text-success-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                <path
+                  fill-rule="evenodd"
+                  d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ $t('features.handsOn.title') }}</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              {{ $t('features.handsOn.title') }}
+            </h3>
             <p class="text-gray-600 leading-relaxed">
               {{ $t('features.handsOn.description') }}
             </p>
           </div>
-          
+
           <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
             <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
               <svg class="w-7 h-7 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                <path
+                  d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"
+                />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ $t('features.expertSupport.title') }}</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              {{ $t('features.expertSupport.title') }}
+            </h3>
             <p class="text-gray-600 leading-relaxed">
               {{ $t('features.expertSupport.description') }}
             </p>
@@ -156,48 +222,76 @@
             {{ $t('courses.subtitle') }}
           </p>
         </div>
-        
+
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
-            <div class="h-48 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
+          <div
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center"
+            >
               <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ $t('courses.aiFundamentals.title') }}</h3>
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                {{ $t('courses.aiFundamentals.title') }}
+              </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.aiFundamentals.description') }}</p>
               <div class="flex items-center justify-between">
                 <span class="text-2xl font-bold text-primary-600">$199</span>
-                <span class="text-sm text-gray-500">{{ $t('courses.aiFundamentals.duration') }}</span>
+                <span class="text-sm text-gray-500">{{
+                  $t('courses.aiFundamentals.duration')
+                }}</span>
               </div>
             </div>
           </div>
-          
-          <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
-            <div class="h-48 bg-gradient-to-br from-success-400 to-success-600 flex items-center justify-center">
+
+          <div
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-success-400 to-success-600 flex items-center justify-center"
+            >
               <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                <path
+                  fill-rule="evenodd"
+                  d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
               </svg>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ $t('courses.webDevelopment.title') }}</h3>
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                {{ $t('courses.webDevelopment.title') }}
+              </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.webDevelopment.description') }}</p>
               <div class="flex items-center justify-between">
                 <span class="text-2xl font-bold text-primary-600">$299</span>
-                <span class="text-sm text-gray-500">{{ $t('courses.webDevelopment.duration') }}</span>
+                <span class="text-sm text-gray-500">{{
+                  $t('courses.webDevelopment.duration')
+                }}</span>
               </div>
             </div>
           </div>
-          
-          <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
-            <div class="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
+
+          <div
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center"
+            >
               <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                <path
+                  d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                />
               </svg>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ $t('courses.itEssentials.title') }}</h3>
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                {{ $t('courses.itEssentials.title') }}
+              </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.itEssentials.description') }}</p>
               <div class="flex items-center justify-between">
                 <span class="text-2xl font-bold text-primary-600">$249</span>
@@ -219,10 +313,14 @@
           {{ $t('cta.subtitle') }}
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <button class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg">
+          <button
+            class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
+          >
             {{ $t('cta.browseAll') }}
           </button>
-          <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors">
+          <button
+            class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
+          >
             {{ $t('cta.talkAdvisor') }}
           </button>
         </div>
