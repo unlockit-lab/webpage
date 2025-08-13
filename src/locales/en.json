@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "courses": "Courses",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Unlock Your",
+    "titleHighlight": "Tech Potential",
+    "subtitle": "Master AI and IT fundamentals with our beginner-friendly courses. Start your journey into technology with expert guidance and hands-on learning.",
+    "startLearning": "Start Learning Today",
+    "viewCourses": "View Courses",
+    "students": "500+ Students",
+    "instructors": "Expert Instructors",
+    "jobReady": "Job-Ready Skills"
+  },
+  "features": {
+    "title": "Why Choose UnlockIT?",
+    "subtitle": "We make complex technology simple and accessible for everyone, regardless of your background.",
+    "beginnerFriendly": {
+      "title": "Beginner-Friendly",
+      "description": "Start from zero with our carefully designed curriculum that breaks down complex concepts into digestible lessons."
+    },
+    "handsOn": {
+      "title": "Hands-On Learning",
+      "description": "Build real projects and gain practical experience with interactive coding exercises and real-world applications."
+    },
+    "expertSupport": {
+      "title": "Expert Support",
+      "description": "Get guidance from industry professionals with years of experience in AI, programming, and IT."
+    }
+  },
+  "courses": {
+    "title": "Popular Courses",
+    "subtitle": "Start your journey with our most loved courses",
+    "aiFundamentals": {
+      "title": "AI Fundamentals",
+      "description": "Learn the basics of artificial intelligence, machine learning concepts, and practical applications.",
+      "duration": "8 weeks"
+    },
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Build modern websites with HTML, CSS, JavaScript, and popular frameworks.",
+      "duration": "12 weeks"
+    },
+    "itEssentials": {
+      "title": "IT Essentials",
+      "description": "Master essential IT skills including networking, security, and system administration.",
+      "duration": "10 weeks"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Your Tech Journey?",
+    "subtitle": "Join hundreds of students who have already transformed their careers with UnlockIT.",
+    "browseAll": "Browse All Courses",
+    "talkAdvisor": "Talk to an Advisor"
+  },
+  "footer": {
+    "description": "Empowering beginners to master AI and IT through expert-led training and hands-on learning experiences.",
+    "courses": "Courses",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "instructors": "Instructors",
+    "careers": "Careers",
+    "programmingBasics": "Programming Basics",
+    "copyright": "2024 UnlockIT. All rights reserved."
+  },
+  "courseCards": {
+    "aiBasics": "AI Basics",
+    "aiDescription": "Learn AI fundamentals",
+    "programming": "Programming",
+    "programmingDescription": "Code from scratch",
+    "webDev": "Web Dev",
+    "webDevDescription": "Build websites",
+    "itSkills": "IT Skills",
+    "itDescription": "Tech essentials"
+  }
+}
