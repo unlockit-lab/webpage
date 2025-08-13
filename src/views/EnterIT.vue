@@ -59,7 +59,7 @@
                 </svg>
               </div>
               <h3 class="font-semibold text-gray-900 mb-1">{{ $t('enterit.date.title') }}</h3>
-              <p class="text-gray-600">{{ $t('enterit.date.value') }}</p>
+              <p class="text-gray-600">{{ webinarDate }}</p>
             </div>
             <div class="text-center">
               <div
