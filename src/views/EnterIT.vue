@@ -414,7 +414,7 @@
               <div class="w-64 h-64 rounded-full mx-auto shadow-2xl overflow-hidden bg-gray-100">
                 <!-- Profile Image -->
                 <img
-                  src="https://images.pexels.com/photos/30712847/pexels-photo-30712847.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop&crop=face"
+                  src="/images/michal-wronski.jpg"
                   alt="Michał Wroński - IT Career Coach"
                   class="w-full h-full object-cover object-center"
                   @error="handleImageError"
@@ -529,13 +529,19 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import config from '../config'
 
 const { t, locale } = useI18n()
 
-// Set webinar date - 15 days from now at 7:00 PM
-const webinarTargetDate = new Date()
-webinarTargetDate.setDate(webinarTargetDate.getDate() + 15)
-webinarTargetDate.setHours(19, 0, 0, 0) // 7:00 PM
+const getWebinarTargetDate = (): Date => {
+    const configDate = new Date(config.webinar.targetDate)
+    if (!isNaN(configDate.getTime())) {
+      return configDate
+    }
+    return new Date()
+}
+
+const webinarTargetDate = getWebinarTargetDate()
 
 const timeLeft = ref({
   days: 0,
@@ -544,7 +550,7 @@ const timeLeft = ref({
   seconds: 0,
 })
 
-let countdownInterval: NodeJS.Timeout | null = null
+let countdownInterval: number | null = null
 
 const updateCountdown = () => {
   const now = new Date().getTime()
@@ -568,10 +574,10 @@ const updateCountdown = () => {
 
 const webinarDate = computed(() => {
   const date = webinarTargetDate.toLocaleDateString(locale.value === 'pl' ? 'pl-PL' : 'en-US', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
+    weekday: 'short',
+    year: '2-digit',
+    month: '2-digit',
+    day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
   })
