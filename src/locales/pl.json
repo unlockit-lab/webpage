@@ -75,5 +75,71 @@
     "webDevDescription": "Buduj strony internetowe",
     "itSkills": "Umiejętności IT",
     "itDescription": "Podstawy technologii"
+  },
+  "enterit": {
+    "badge": "Darmowy Webinar",
+    "title": "EnterIT",
+    "subtitle": "Twój kompletny przewodnik po wejściu do branży IT. Poznaj kluczowe strategie poszukiwania pracy, przygotowania do rozmów kwalifikacyjnych, nawiązywania kontaktów z rekruterami i wykorzystania AI do przyspieszonej nauki.",
+    "date": {
+      "title": "Data",
+      "value": "Wkrótce"
+    },
+    "duration": {
+      "title": "Czas trwania",
+      "value": "90 minut"
+    },
+    "format": {
+      "title": "Format",
+      "value": "Na żywo online"
+    },
+    "registerButton": "Zarezerwuj Miejsce",
+    "freeEvent": "100% Darmowe Wydarzenie - Ograniczona Liczba Miejsc",
+    "whatYoullLearn": {
+      "title": "Czego Się Nauczysz",
+      "subtitle": "Otrzymaj praktyczne, wykonalne strategie do rozpoczęcia kariery w IT"
+    },
+    "modules": {
+      "jobSearch": {
+        "title": "Jak Zacząć Szukać Pracy w IT",
+        "point1": "Zidentyfikuj najlepsze stanowiska dla początkujących dla Twojego doświadczenia",
+        "point2": "Stwórz przekonujące portfolio nawet bez doświadczenia",
+        "point3": "Skutecznie nawiguj po portalach pracy i stronach firm"
+      },
+      "interview": {
+        "title": "Jak Przygotować Się do Rozmów Kwalifikacyjnych",
+        "point1": "Opanuj typowe pytania techniczne i behawioralne",
+        "point2": "Zaprezentuj swoje umiejętności przez praktyczne przykłady",
+        "point3": "Radź sobie z negocjacjami płacy i komunikacją następczą"
+      },
+      "recruiters": {
+        "title": "Jak Znaleźć Rekruterów",
+        "point1": "Zbuduj profesjonalną sieć na LinkedIn i innych platformach",
+        "point2": "Nawiąż kontakt z rekruterami IT w docelowych firmach",
+        "point3": "Utrzymuj relacje i otrzymuj rekomendacje"
+      },
+      "aiLearning": {
+        "title": "Jak Uczyć Się z AI",
+        "point1": "Używaj narzędzi AI do przyspieszenia procesu nauki",
+        "point2": "Otrzymaj spersonalizowane ścieżki nauki i ćwiczenia praktyczne",
+        "point3": "Bądź na bieżąco z najnowszymi technologiami i trendami"
+      }
+    },
+    "speaker": {
+      "title": "Poznaj Prelegenta",
+      "subtitle": "Ucz się od eksperta branżowego z udowodnionymi wynikami",
+      "name": "Ekspert Prelegent",
+      "role": "Senior Coach Kariery IT i Założyciel UnlockIT",
+      "bio": "Z ponad 10-letnim doświadczeniem w branży IT i po pomocy setkom profesjonalistów w przejściu do udanych karier technologicznych, nasz prelegent podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku.",
+      "experience": "Ponad 10 Lat Doświadczenia",
+      "expertise1": "Coaching Kariery",
+      "expertise2": "AI i Technologia"
+    },
+    "finalCta": {
+      "title": "Gotowy na Rozpoczęcie Kariery w IT?",
+      "subtitle": "Dołącz do nas na tym ekskluzywnym webinarze i zrób pierwszy krok w kierunku wymarzonej pracy w technologii.",
+      "primaryButton": "Zarejestruj się za Darmo",
+      "secondaryButton": "Dowiedz się Więcej",
+      "note": "Ograniczona liczba miejsc. Rejestracja zamykana po zapełnieniu."
+    }
   }
 }
