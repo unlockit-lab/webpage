@@ -574,6 +574,13 @@ const webinarDate = computed(() => {
   return date
 })
 
+// Profile image error handling
+const showFallback = ref(false)
+
+const handleImageError = () => {
+  showFallback.value = true
+}
+
 onMounted(() => {
   updateCountdown()
   countdownInterval = setInterval(updateCountdown, 1000)
