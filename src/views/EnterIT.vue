@@ -506,20 +506,48 @@
         <p class="text-xl text-primary-100 mb-8">
           {{ $t('enterit.finalCta.subtitle') }}
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg text-lg"
-          >
-            {{ $t('enterit.finalCta.primaryButton') }}
-          </button>
-          <button
-            class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
-          >
-            {{ $t('enterit.finalCta.secondaryButton') }}
-          </button>
+        <!-- Email Subscription Form -->
+        <div class="max-w-md mx-auto">
+          <form @submit.prevent="handleSubscription" class="flex flex-col sm:flex-row gap-4">
+            <div class="flex-1">
+              <input
+                v-model="email"
+                type="email"
+                :placeholder="$t('enterit.finalCta.emailPlaceholder')"
+                required
+                class="w-full px-4 py-4 rounded-lg border-2 border-white/30 bg-white/10 text-white placeholder-white/70 focus:outline-none focus:border-white focus:bg-white/20 transition-all text-lg"
+                :disabled="isSubscribing"
+              />
+            </div>
+            <button
+              type="submit"
+              :disabled="isSubscribing || !email"
+              class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg text-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center min-w-[140px]"
+            >
+              <span v-if="!isSubscribing">{{ $t('enterit.finalCta.subscribeButton') }}</span>
+              <div v-else class="flex items-center space-x-2">
+                <svg class="animate-spin h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
+                </svg>
+                <span>{{ $t('enterit.finalCta.subscribingButton') }}</span>
+              </div>
+            </button>
+          </form>
+
+          <!-- Success/Error Messages -->
+          <div v-if="subscriptionStatus" class="mt-4">
+            <div v-if="subscriptionStatus === 'success'" class="bg-green-500/20 border border-green-300 text-white px-4 py-3 rounded-lg">
+              {{ $t('enterit.finalCta.successMessage') }}
+            </div>
+            <div v-else-if="subscriptionStatus === 'error'" class="bg-red-500/20 border border-red-300 text-white px-4 py-3 rounded-lg">
+              {{ $t('enterit.finalCta.errorMessage') }}
+            </div>
+          </div>
         </div>
+
         <p class="text-sm text-primary-100 mt-6">
-          {{ $t('enterit.finalCta.note') }}
+          {{ $t('enterit.finalCta.privacyNote') }}
         </p>
       </div>
     </section>
