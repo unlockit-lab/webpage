@@ -93,6 +93,7 @@
             </div>
 
             <button
+              @click="navigateToEnterIT"
               class="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors"
             >
               {{ $t('nav.getStarted') }}
@@ -152,6 +153,7 @@
             </button>
           </div>
           <button
+            @click="navigateToEnterIT"
             class="w-full mt-2 bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors"
           >
             {{ $t('nav.getStarted') }}
@@ -276,8 +278,10 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRouter } from 'vue-router'
 
 const { locale, t } = useI18n()
+const router = useRouter()
 
 const mobileMenuOpen = ref(false)
 const languageMenuOpen = ref(false)
@@ -289,6 +293,10 @@ const changeLanguage = (lang: string) => {
   locale.value = lang
   localStorage.setItem('locale', lang)
   languageMenuOpen.value = false
+}
+
+const navigateToEnterIT = () => {
+  router.push('/enterit')
 }
 
 // Close language menu when clicking outside
