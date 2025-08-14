@@ -60,58 +60,66 @@
                 </div>
               </div>
             </div>
-            <p class="text-sm text-gray-500 mt-4">{{ webinarDate }}</p>
+            <div class="mt-6 p-4 bg-gray-50 rounded-lg border-l-4 border-primary-500">
+              <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                {{ $t('enterit.date.title') }}
+              </h4>
+              <p class="text-xl font-bold text-primary-600">{{ webinarDate }}</p>
+            </div>
           </div>
 
-          <div class="grid md:grid-cols-3 gap-6 mb-8">
-            <div class="text-center">
-              <div
-                class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3"
-              >
-                <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
+          <div class="grid md:grid-cols-2 gap-6 mb-8">
+            <!-- Duration Card -->
+            <div class="p-4 bg-gray-50 rounded-lg border-l-4 border-success-500">
+              <div class="flex items-center space-x-3">
+                <div
+                  class="w-10 h-10 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0"
+                >
+                  <svg class="w-5 h-5 text-success-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                    {{ $t('enterit.duration.title') }}
+                  </h4>
+                  <p class="text-xl font-bold text-success-600">
+                    {{ $t('enterit.duration.value') }}
+                  </p>
+                </div>
               </div>
-              <h3 class="font-semibold text-gray-900 mb-1">{{ $t('enterit.date.title') }}</h3>
-              <p class="text-gray-600">{{ webinarDate }}</p>
             </div>
-            <div class="text-center">
-              <div
-                class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-3"
-              >
-                <svg class="w-6 h-6 text-success-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
+
+            <!-- Format Card -->
+            <div class="p-4 bg-gray-50 rounded-lg border-l-4 border-purple-500">
+              <div class="flex items-center space-x-3">
+                <div
+                  class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0"
+                >
+                  <svg class="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                    {{ $t('enterit.format.title') }}
+                  </h4>
+                  <p class="text-xl font-bold text-purple-600">{{ $t('enterit.format.value') }}</p>
+                </div>
               </div>
-              <h3 class="font-semibold text-gray-900 mb-1">{{ $t('enterit.duration.title') }}</h3>
-              <p class="text-gray-600">{{ $t('enterit.duration.value') }}</p>
-            </div>
-            <div class="text-center">
-              <div
-                class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3"
-              >
-                <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-                  />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-gray-900 mb-1">{{ $t('enterit.format.title') }}</h3>
-              <p class="text-gray-600">{{ $t('enterit.format.value') }}</p>
             </div>
           </div>
 
           <!-- Registration CTA -->
           <div class="text-center">
             <button
+              @click="scrollToSubscription"
               class="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               {{ $t('enterit.registerButton') }}
@@ -506,21 +514,62 @@
         <p class="text-xl text-primary-100 mb-8">
           {{ $t('enterit.finalCta.subtitle') }}
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg text-lg"
-          >
-            {{ $t('enterit.finalCta.primaryButton') }}
-          </button>
-          <button
-            class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
-          >
-            {{ $t('enterit.finalCta.secondaryButton') }}
-          </button>
+        <!-- Email Subscription Form -->
+        <div class="max-w-md mx-auto" id="subscription-form">
+          <form @submit.prevent="handleSubscription" class="flex flex-col sm:flex-row gap-4">
+            <div class="flex-1">
+              <input
+                v-model="email"
+                type="email"
+                :placeholder="$t('enterit.finalCta.emailPlaceholder')"
+                required
+                class="w-full px-4 py-4 rounded-lg border-2 border-white/30 bg-white/10 text-white placeholder-white/70 focus:outline-none focus:border-white focus:bg-white/20 transition-all text-lg"
+                :disabled="isSubscribing"
+              />
+            </div>
+            <button
+              type="submit"
+              :disabled="isSubscribing || !email"
+              class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg text-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center min-w-[140px]"
+            >
+              <span v-if="!isSubscribing">{{ $t('enterit.finalCta.subscribeButton') }}</span>
+              <div v-else class="flex items-center space-x-2">
+                <svg class="animate-spin h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24">
+                  <circle
+                    class="opacity-25"
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="currentColor"
+                    stroke-width="4"
+                  />
+                  <path
+                    class="opacity-75"
+                    fill="currentColor"
+                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                  />
+                </svg>
+                <span>{{ $t('enterit.finalCta.subscribingButton') }}</span>
+              </div>
+            </button>
+          </form>
+
+          <!-- Success/Error Messages -->
+          <div v-if="subscriptionStatus" class="mt-4">
+            <div
+              v-if="subscriptionStatus === 'success'"
+              class="bg-green-500/20 border border-green-300 text-white px-4 py-3 rounded-lg"
+            >
+              {{ $t('enterit.finalCta.successMessage') }}
+            </div>
+            <div
+              v-else-if="subscriptionStatus === 'error'"
+              class="bg-red-500/20 border border-red-300 text-white px-4 py-3 rounded-lg"
+            >
+              {{ $t('enterit.finalCta.errorMessage') }}
+            </div>
+          </div>
         </div>
-        <p class="text-sm text-primary-100 mt-6">
-          {{ $t('enterit.finalCta.note') }}
-        </p>
       </div>
     </section>
   </div>
@@ -534,11 +583,11 @@ import config from '../config'
 const { t, locale } = useI18n()
 
 const getWebinarTargetDate = (): Date => {
-    const configDate = new Date(config.webinar.targetDate)
-    if (!isNaN(configDate.getTime())) {
-      return configDate
-    }
-    return new Date()
+  const configDate = new Date(config.webinar.targetDate)
+  if (!isNaN(configDate.getTime())) {
+    return configDate
+  }
+  return new Date()
 }
 
 const webinarTargetDate = getWebinarTargetDate()
@@ -589,6 +638,63 @@ const showFallback = ref(false)
 
 const handleImageError = () => {
   showFallback.value = true
+}
+
+// Email subscription functionality
+const email = ref('')
+const isSubscribing = ref(false)
+const subscriptionStatus = ref<'success' | 'error' | null>(null)
+
+const handleSubscription = async () => {
+  if (!email.value || isSubscribing.value) return
+
+  isSubscribing.value = true
+  subscriptionStatus.value = null
+
+  try {
+    // MailerLite API integration
+    const response = await fetch('https://connect.mailerlite.com/api/subscribers', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: 'Bearer YOUR_MAILERLITE_API_KEY', // Replace with your actual API key
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        email: email.value,
+        groups: ['webinar_enterit'], // Replace with your MailerLite group ID
+        fields: {
+          name: '', // Optional: can be empty for now
+          last_name: '',
+          webinar: 'EnterIT',
+        },
+      }),
+    })
+
+    if (response.ok) {
+      subscriptionStatus.value = 'success'
+      email.value = '' // Clear the email field
+    } else {
+      subscriptionStatus.value = 'error'
+    }
+  } catch (error) {
+    console.error('Subscription error:', error)
+    subscriptionStatus.value = 'error'
+  } finally {
+    isSubscribing.value = false
+
+    // Clear status message after 5 seconds
+    setTimeout(() => {
+      subscriptionStatus.value = null
+    }, 5000)
+  }
+}
+
+const scrollToSubscription = () => {
+  const subscriptionForm = document.getElementById('subscription-form')
+  if (subscriptionForm) {
+    subscriptionForm.scrollIntoView({ behavior: 'smooth' })
+  }
 }
 
 onMounted(() => {

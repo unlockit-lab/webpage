@@ -58,7 +58,7 @@
     "talkAdvisor": "Talk to an Advisor"
   },
   "footer": {
-    "description": "Empowering beginners to master AI and IT through expert-led training and hands-on learning experiences.",
+    "description": "Empowering beginners to master AI and the necessary knowledge to work in IT through expert-led training and hands-on learning experiences.",
     "courses": "Courses",
     "company": "Company",
     "aboutUs": "About Us",
@@ -136,18 +136,20 @@
       "subtitle": "Learn from an industry expert with proven results",
       "name": "Michał Wroński",
       "role": "Senior IT Career Coach & UnlockIT Founder",
-      "bio": "With over 15 years of experience in the IT industry and having helped hundreds of professionals transition into successful tech careers, Michał will share insider knowledge and proven strategies that work in today's competitive market. As a seasoned professional, he understands the challenges of breaking into IT and will provide practical, actionable advice.",
-      "experience": "10+ Years Experience",
+      "bio": "15+ years of experience in the IT industry - thousands of lines of production code, dozens of projects, and hundreds of interns. Michał will share insider knowledge and proven strategies that work in today's competitive market. As a seasoned professional, he understands the challenges of breaking into IT and will provide practical, actionable advice.",
+      "experience": "15+ Years Experience",
       "expertise1": "Career Coaching",
       "expertise2": "AI & Technology",
       "viewProfile": "View LinkedIn Profile"
     },
     "finalCta": {
       "title": "Ready to Launch Your IT Career?",
-      "subtitle": "Join us for this exclusive webinar and take the first step towards your dream job in technology.",
-      "primaryButton": "Register for Free",
-      "secondaryButton": "Learn More",
-      "note": "Limited seats available. Registration closes when full."
+      "subtitle": "Subscribe today and receive a free gift after the webinar.",
+      "emailPlaceholder": "Enter your email address",
+      "subscribeButton": "Subscribe",
+      "subscribingButton": "Subscribing...",
+      "successMessage": "Thanks for subscribing! We'll keep you posted.",
+      "errorMessage": "Something went wrong. Please try again."
     }
   }
 }
