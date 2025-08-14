@@ -569,10 +569,6 @@
             </div>
           </div>
         </div>
-
-        <p class="text-sm text-primary-100 mt-6">
-          {{ $t('enterit.finalCta.privacyNote') }}
-        </p>
       </div>
     </section>
   </div>

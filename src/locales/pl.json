@@ -137,20 +137,19 @@
       "name": "Michał Wroński",
       "role": "Senior Coach Kariery IT i Założyciel UnlockIT",
       "bio": "Z ponad 15-letnim doświadczeniem w branży IT i po pomocy setkom profesjonalistów w przejściu do udanych karier technologicznych, Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne, wykonalne porady.",
-      "experience": "Ponad 10 Lat Doświadczenia",
+      "experience": "Ponad 15 Lat Doświadczenia",
       "expertise1": "Coaching Kariery",
       "expertise2": "AI i Technologia",
       "viewProfile": "Zobacz Profil LinkedIn"
     },
     "finalCta": {
       "title": "Gotowy na Rozpoczęcie Kariery w IT?",
-      "subtitle": "Otrzymaj powiadomienie o otwarciu rejestracji i ekskluzywne porady dotyczące kariery w IT.",
+      "subtitle": "Zapisz się na już dziś i otrzymaj prezent po webinarze.",
       "emailPlaceholder": "Wprowadź swój adres e-mail",
       "subscribeButton": "Zapisz się",
       "subscribingButton": "Zapisywanie...",
-      "successMessage": "Dziękujemy za zapisanie się! Będziesz pierwszy/a do znać o otwarciu rejestracji.",
-      "errorMessage": "Coś poszło nie tak. Spróbuj ponownie.",
-      "privacyNote": "Szanujemy Twoją prywatność. Możesz się wypisać w każdej chwili. Bez spamu, obiecujemy."
+      "successMessage": "Dziękujemy za zapisanie się! Będziesz informować Cię na bieżąco.",
+      "errorMessage": "Coś poszło nie tak. Spróbuj ponownie."
     }
   }
 }

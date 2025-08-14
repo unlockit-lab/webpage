@@ -137,20 +137,19 @@
       "name": "Michał Wroński",
       "role": "Senior IT Career Coach & UnlockIT Founder",
       "bio": "With over 15 years of experience in the IT industry and having helped hundreds of professionals transition into successful tech careers, Michał will share insider knowledge and proven strategies that work in today's competitive market. As a seasoned professional, he understands the challenges of breaking into IT and will provide practical, actionable advice.",
-      "experience": "10+ Years Experience",
+      "experience": "15+ Years Experience",
       "expertise1": "Career Coaching",
       "expertise2": "AI & Technology",
       "viewProfile": "View LinkedIn Profile"
     },
     "finalCta": {
       "title": "Ready to Launch Your IT Career?",
-      "subtitle": "Get notified when registration opens and receive exclusive IT career tips.",
+      "subtitle": "Subscribe today and receive a free gift after the webinar.",
       "emailPlaceholder": "Enter your email address",
       "subscribeButton": "Subscribe",
       "subscribingButton": "Subscribing...",
-      "successMessage": "Thanks for subscribing! You'll be the first to know when registration opens.",
-      "errorMessage": "Something went wrong. Please try again.",
-      "privacyNote": "We respect your privacy. Unsubscribe at any time. No spam, we promise."
+      "successMessage": "Thanks for subscribing! We'll keep you posted.",
+      "errorMessage": "Something went wrong. Please try again."
     }
   }
 }
