@@ -146,10 +146,11 @@
       "title": "Ready to Launch Your IT Career?",
       "subtitle": "Subscribe today and receive a free gift after the webinar.",
       "emailPlaceholder": "Enter your email address",
-      "subscribeButton": "Subscribe",
+      "subscribeButton": "Subscribe Now",
       "subscribingButton": "Subscribing...",
       "successMessage": "Thanks for subscribing! We'll keep you posted.",
-      "errorMessage": "Something went wrong. Please try again."
+      "errorMessage": "Something went wrong. Please try again.",
+      "clickToSubscribe": "Click to open subscription form"
     }
   }
 }

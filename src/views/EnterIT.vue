@@ -514,61 +514,17 @@
         <p class="text-xl text-primary-100 mb-8">
           {{ $t('enterit.finalCta.subtitle') }}
         </p>
-        <!-- Email Subscription Form -->
+        <!-- MailerLite Subscription Button -->
         <div class="max-w-md mx-auto" id="subscription-form">
-          <form @submit.prevent="handleSubscription" class="flex flex-col sm:flex-row gap-4">
-            <div class="flex-1">
-              <input
-                v-model="email"
-                type="email"
-                :placeholder="$t('enterit.finalCta.emailPlaceholder')"
-                required
-                class="w-full px-4 py-4 rounded-lg border-2 border-white/30 bg-white/10 text-white placeholder-white/70 focus:outline-none focus:border-white focus:bg-white/20 transition-all text-lg"
-                :disabled="isSubscribing"
-              />
-            </div>
-            <button
-              type="submit"
-              :disabled="isSubscribing || !email"
-              class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg text-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center min-w-[140px]"
-            >
-              <span v-if="!isSubscribing">{{ $t('enterit.finalCta.subscribeButton') }}</span>
-              <div v-else class="flex items-center space-x-2">
-                <svg class="animate-spin h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24">
-                  <circle
-                    class="opacity-25"
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="currentColor"
-                    stroke-width="4"
-                  />
-                  <path
-                    class="opacity-75"
-                    fill="currentColor"
-                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                  />
-                </svg>
-                <span>{{ $t('enterit.finalCta.subscribingButton') }}</span>
-              </div>
-            </button>
-          </form>
-
-          <!-- Success/Error Messages -->
-          <div v-if="subscriptionStatus" class="mt-4">
-            <div
-              v-if="subscriptionStatus === 'success'"
-              class="bg-green-500/20 border border-green-300 text-white px-4 py-3 rounded-lg"
-            >
-              {{ $t('enterit.finalCta.successMessage') }}
-            </div>
-            <div
-              v-else-if="subscriptionStatus === 'error'"
-              class="bg-red-500/20 border border-red-300 text-white px-4 py-3 rounded-lg"
-            >
-              {{ $t('enterit.finalCta.errorMessage') }}
-            </div>
-          </div>
+          <button
+            class="ml-onclick-form bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg text-lg w-full"
+            onclick="ml('show', 'SwG5CC', true)"
+          >
+            {{ $t('enterit.finalCta.subscribeButton') }}
+          </button>
+          <p class="text-sm text-primary-100 mt-4 opacity-80">
+            {{ $t('enterit.finalCta.clickToSubscribe') }}
+          </p>
         </div>
       </div>
     </section>
@@ -640,55 +596,7 @@ const handleImageError = () => {
   showFallback.value = true
 }
 
-// Email subscription functionality
-const email = ref('')
-const isSubscribing = ref(false)
-const subscriptionStatus = ref<'success' | 'error' | null>(null)
-
-const handleSubscription = async () => {
-  if (!email.value || isSubscribing.value) return
-
-  isSubscribing.value = true
-  subscriptionStatus.value = null
-
-  try {
-    // MailerLite API integration
-    const response = await fetch('https://connect.mailerlite.com/api/subscribers', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: 'Bearer YOUR_MAILERLITE_API_KEY', // Replace with your actual API key
-        Accept: 'application/json',
-      },
-      body: JSON.stringify({
-        email: email.value,
-        groups: ['webinar_enterit'], // Replace with your MailerLite group ID
-        fields: {
-          name: '', // Optional: can be empty for now
-          last_name: '',
-          webinar: 'EnterIT',
-        },
-      }),
-    })
-
-    if (response.ok) {
-      subscriptionStatus.value = 'success'
-      email.value = '' // Clear the email field
-    } else {
-      subscriptionStatus.value = 'error'
-    }
-  } catch (error) {
-    console.error('Subscription error:', error)
-    subscriptionStatus.value = 'error'
-  } finally {
-    isSubscribing.value = false
-
-    // Clear status message after 5 seconds
-    setTimeout(() => {
-      subscriptionStatus.value = null
-    }, 5000)
-  }
-}
+// MailerLite embedded form is now handling subscription
 
 const scrollToSubscription = () => {
   const subscriptionForm = document.getElementById('subscription-form')
