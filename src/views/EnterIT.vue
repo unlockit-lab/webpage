@@ -60,7 +60,10 @@
                 </div>
               </div>
             </div>
-            <p class="text-sm text-gray-500 mt-4">{{ webinarDate }}</p>
+            <div class="mt-6 p-4 bg-gray-50 rounded-lg border-l-4 border-primary-500">
+              <h4 class="text-lg font-semibold text-gray-900 mb-1">{{ $t('enterit.date.title') }}</h4>
+              <p class="text-xl font-bold text-primary-600">{{ webinarDate }}</p>
+            </div>
           </div>
 
           <div class="grid md:grid-cols-3 gap-6 mb-8">
