@@ -144,10 +144,13 @@
     },
     "finalCta": {
       "title": "Ready to Launch Your IT Career?",
-      "subtitle": "Join us for this exclusive webinar and take the first step towards your dream job in technology.",
-      "primaryButton": "Register for Free",
-      "secondaryButton": "Learn More",
-      "note": "Limited seats available. Registration closes when full."
+      "subtitle": "Get notified when registration opens and receive exclusive IT career tips.",
+      "emailPlaceholder": "Enter your email address",
+      "subscribeButton": "Subscribe",
+      "subscribingButton": "Subscribing...",
+      "successMessage": "Thanks for subscribing! You'll be the first to know when registration opens.",
+      "errorMessage": "Something went wrong. Please try again.",
+      "privacyNote": "We respect your privacy. Unsubscribe at any time. No spam, we promise."
     }
   }
 }
