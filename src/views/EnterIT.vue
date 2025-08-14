@@ -61,7 +61,9 @@
               </div>
             </div>
             <div class="mt-6 p-4 bg-gray-50 rounded-lg border-l-4 border-primary-500">
-              <h4 class="text-lg font-semibold text-gray-900 mb-1">{{ $t('enterit.date.title') }}</h4>
+              <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                {{ $t('enterit.date.title') }}
+              </h4>
               <p class="text-xl font-bold text-primary-600">{{ webinarDate }}</p>
             </div>
           </div>
@@ -70,7 +72,9 @@
             <!-- Duration Card -->
             <div class="p-4 bg-gray-50 rounded-lg border-l-4 border-success-500">
               <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0">
+                <div
+                  class="w-10 h-10 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0"
+                >
                   <svg class="w-5 h-5 text-success-600" fill="currentColor" viewBox="0 0 20 20">
                     <path
                       fill-rule="evenodd"
@@ -80,8 +84,12 @@
                   </svg>
                 </div>
                 <div>
-                  <h4 class="text-lg font-semibold text-gray-900 mb-1">{{ $t('enterit.duration.title') }}</h4>
-                  <p class="text-xl font-bold text-success-600">{{ $t('enterit.duration.value') }}</p>
+                  <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                    {{ $t('enterit.duration.title') }}
+                  </h4>
+                  <p class="text-xl font-bold text-success-600">
+                    {{ $t('enterit.duration.value') }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -89,7 +97,9 @@
             <!-- Format Card -->
             <div class="p-4 bg-gray-50 rounded-lg border-l-4 border-purple-500">
               <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
+                <div
+                  class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0"
+                >
                   <svg class="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
                     <path
                       d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
@@ -97,7 +107,9 @@
                   </svg>
                 </div>
                 <div>
-                  <h4 class="text-lg font-semibold text-gray-900 mb-1">{{ $t('enterit.format.title') }}</h4>
+                  <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                    {{ $t('enterit.format.title') }}
+                  </h4>
                   <p class="text-xl font-bold text-purple-600">{{ $t('enterit.format.value') }}</p>
                 </div>
               </div>
