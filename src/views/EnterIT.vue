@@ -66,34 +66,41 @@
             </div>
           </div>
 
-          <div class="grid md:grid-cols-2 gap-8 mb-8">
-            <div class="text-center">
-              <div
-                class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-3"
-              >
-                <svg class="w-6 h-6 text-success-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
+          <div class="grid md:grid-cols-2 gap-6 mb-8">
+            <!-- Duration Card -->
+            <div class="p-4 bg-gray-50 rounded-lg border-l-4 border-success-500">
+              <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-success-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 mb-1">{{ $t('enterit.duration.title') }}</h4>
+                  <p class="text-xl font-bold text-success-600">{{ $t('enterit.duration.value') }}</p>
+                </div>
               </div>
-              <h3 class="font-semibold text-gray-900 mb-1">{{ $t('enterit.duration.title') }}</h3>
-              <p class="text-gray-600">{{ $t('enterit.duration.value') }}</p>
             </div>
-            <div class="text-center">
-              <div
-                class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3"
-              >
-                <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-                  />
-                </svg>
+
+            <!-- Format Card -->
+            <div class="p-4 bg-gray-50 rounded-lg border-l-4 border-purple-500">
+              <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 mb-1">{{ $t('enterit.format.title') }}</h4>
+                  <p class="text-xl font-bold text-purple-600">{{ $t('enterit.format.value') }}</p>
+                </div>
               </div>
-              <h3 class="font-semibold text-gray-900 mb-1">{{ $t('enterit.format.title') }}</h3>
-              <p class="text-gray-600">{{ $t('enterit.format.value') }}</p>
             </div>
           </div>
 
