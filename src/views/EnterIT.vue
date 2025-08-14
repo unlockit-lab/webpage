@@ -527,8 +527,19 @@
               <span v-if="!isSubscribing">{{ $t('enterit.finalCta.subscribeButton') }}</span>
               <div v-else class="flex items-center space-x-2">
                 <svg class="animate-spin h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24">
-                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
-                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
+                  <circle
+                    class="opacity-25"
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="currentColor"
+                    stroke-width="4"
+                  />
+                  <path
+                    class="opacity-75"
+                    fill="currentColor"
+                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                  />
                 </svg>
                 <span>{{ $t('enterit.finalCta.subscribingButton') }}</span>
               </div>
@@ -537,10 +548,16 @@
 
           <!-- Success/Error Messages -->
           <div v-if="subscriptionStatus" class="mt-4">
-            <div v-if="subscriptionStatus === 'success'" class="bg-green-500/20 border border-green-300 text-white px-4 py-3 rounded-lg">
+            <div
+              v-if="subscriptionStatus === 'success'"
+              class="bg-green-500/20 border border-green-300 text-white px-4 py-3 rounded-lg"
+            >
               {{ $t('enterit.finalCta.successMessage') }}
             </div>
-            <div v-else-if="subscriptionStatus === 'error'" class="bg-red-500/20 border border-red-300 text-white px-4 py-3 rounded-lg">
+            <div
+              v-else-if="subscriptionStatus === 'error'"
+              class="bg-red-500/20 border border-red-300 text-white px-4 py-3 rounded-lg"
+            >
               {{ $t('enterit.finalCta.errorMessage') }}
             </div>
           </div>
@@ -562,11 +579,11 @@ import config from '../config'
 const { t, locale } = useI18n()
 
 const getWebinarTargetDate = (): Date => {
-    const configDate = new Date(config.webinar.targetDate)
-    if (!isNaN(configDate.getTime())) {
-      return configDate
-    }
-    return new Date()
+  const configDate = new Date(config.webinar.targetDate)
+  if (!isNaN(configDate.getTime())) {
+    return configDate
+  }
+  return new Date()
 }
 
 const webinarTargetDate = getWebinarTargetDate()
@@ -636,8 +653,8 @@ const handleSubscription = async () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer YOUR_MAILERLITE_API_KEY', // Replace with your actual API key
-        'Accept': 'application/json'
+        Authorization: 'Bearer YOUR_MAILERLITE_API_KEY', // Replace with your actual API key
+        Accept: 'application/json',
       },
       body: JSON.stringify({
         email: email.value,
@@ -645,9 +662,9 @@ const handleSubscription = async () => {
         fields: {
           name: '', // Optional: can be empty for now
           last_name: '',
-          webinar: 'EnterIT'
-        }
-      })
+          webinar: 'EnterIT',
+        },
+      }),
     })
 
     if (response.ok) {
