@@ -619,6 +619,56 @@ const handleImageError = () => {
   showFallback.value = true
 }
 
+// Email subscription functionality
+const email = ref('')
+const isSubscribing = ref(false)
+const subscriptionStatus = ref<'success' | 'error' | null>(null)
+
+const handleSubscription = async () => {
+  if (!email.value || isSubscribing.value) return
+
+  isSubscribing.value = true
+  subscriptionStatus.value = null
+
+  try {
+    // MailerLite API integration
+    const response = await fetch('https://connect.mailerlite.com/api/subscribers', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer YOUR_MAILERLITE_API_KEY', // Replace with your actual API key
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        email: email.value,
+        groups: ['webinar_enterit'], // Replace with your MailerLite group ID
+        fields: {
+          name: '', // Optional: can be empty for now
+          last_name: '',
+          webinar: 'EnterIT'
+        }
+      })
+    })
+
+    if (response.ok) {
+      subscriptionStatus.value = 'success'
+      email.value = '' // Clear the email field
+    } else {
+      subscriptionStatus.value = 'error'
+    }
+  } catch (error) {
+    console.error('Subscription error:', error)
+    subscriptionStatus.value = 'error'
+  } finally {
+    isSubscribing.value = false
+
+    // Clear status message after 5 seconds
+    setTimeout(() => {
+      subscriptionStatus.value = null
+    }, 5000)
+  }
+}
+
 onMounted(() => {
   updateCountdown()
   countdownInterval = setInterval(updateCountdown, 1000)
