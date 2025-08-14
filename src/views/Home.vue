@@ -240,7 +240,7 @@
               </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.aiFundamentals.description') }}</p>
               <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-primary-600">$199</span>
+                <span class="text-2xl font-bold text-primary-600"></span>
                 <span class="text-sm text-gray-500">{{
                   $t('courses.aiFundamentals.duration')
                 }}</span>
@@ -268,7 +268,7 @@
               </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.webDevelopment.description') }}</p>
               <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-primary-600">$299</span>
+                <span class="text-2xl font-bold text-primary-600"></span>
                 <span class="text-sm text-gray-500">{{
                   $t('courses.webDevelopment.duration')
                 }}</span>
@@ -294,7 +294,7 @@
               </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.itEssentials.description') }}</p>
               <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-primary-600">$249</span>
+                <span class="text-2xl font-bold text-primary-600"></span>
                 <span class="text-sm text-gray-500">{{ $t('courses.itEssentials.duration') }}</span>
               </div>
             </div>

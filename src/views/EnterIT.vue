@@ -119,6 +119,7 @@
           <!-- Registration CTA -->
           <div class="text-center">
             <button
+              @click="scrollToSubscription"
               class="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               {{ $t('enterit.registerButton') }}
@@ -514,7 +515,7 @@
           {{ $t('enterit.finalCta.subtitle') }}
         </p>
         <!-- Email Subscription Form -->
-        <div class="max-w-md mx-auto">
+        <div class="max-w-md mx-auto" id="subscription-form">
           <form @submit.prevent="handleSubscription" class="flex flex-col sm:flex-row gap-4">
             <div class="flex-1">
               <input
@@ -686,6 +687,13 @@ const handleSubscription = async () => {
     setTimeout(() => {
       subscriptionStatus.value = null
     }, 5000)
+  }
+}
+
+const scrollToSubscription = () => {
+  const subscriptionForm = document.getElementById('subscription-form')
+  if (subscriptionForm) {
+    subscriptionForm.scrollIntoView({ behavior: 'smooth' })
   }
 }
 
