@@ -514,9 +514,17 @@
         <p class="text-xl text-primary-100 mb-8">
           {{ $t('enterit.finalCta.subtitle') }}
         </p>
-        <!-- MailerLite Subscription Form -->
+        <!-- MailerLite Subscription Button -->
         <div class="max-w-md mx-auto" id="subscription-form">
-          <div class="ml-embedded" data-form="SwG5CC"></div>
+          <button
+            class="ml-onclick-form bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg text-lg w-full"
+            onclick="ml('show', 'SwG5CC', true)"
+          >
+            {{ $t('enterit.finalCta.subscribeButton') }}
+          </button>
+          <p class="text-sm text-primary-100 mt-4 opacity-80">
+            {{ $t('enterit.finalCta.clickToSubscribe') }}
+          </p>
         </div>
       </div>
     </section>
