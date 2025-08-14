@@ -66,22 +66,7 @@
             </div>
           </div>
 
-          <div class="grid md:grid-cols-3 gap-6 mb-8">
-            <div class="text-center">
-              <div
-                class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3"
-              >
-                <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-gray-900 mb-1">{{ $t('enterit.date.title') }}</h3>
-              <p class="text-gray-600">{{ webinarDate }}</p>
-            </div>
+          <div class="grid md:grid-cols-2 gap-8 mb-8">
             <div class="text-center">
               <div
                 class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-3"
