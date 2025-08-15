@@ -44,8 +44,17 @@
   </body>
 
   <!-- i18n Support -->
-  <script>
+  <script type="module">
+    const localeModules = import.meta.glob('/src/locales/*.json', { eager: true });
+    
     let i18n = {};
+    for (const path in localeModules) {
+      const lang = path.match(/\/([a-z]{2})\.json$/)?.[1];
+      if (lang) {
+        i18n[lang] = localeModules[path];
+        console.log(`Loaded locale: ${lang}`);
+      }
+    }
     
     function detectLanguage() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -64,39 +73,6 @@
       return 'en';
     }
     
-    async function loadLocale(lang) {
-      try {
-        const paths = [
-          `/src/locales/${lang}.json`,
-          `/locales/${lang}.json`,
-          `./locales/${lang}.json`
-        ];
-        
-        let localeData = null;
-        for (const path of paths) {
-          try {
-            const response = await fetch(path);
-            if (response.ok) {
-              localeData = await response.json();
-              break;
-            }
-          } catch (e) {
-            console.log('Failed to load from:', path, e);
-          }
-        }
-        
-        if (localeData) {
-          i18n[lang] = localeData;
-          return localeData;
-        } else {
-          throw new Error('Could not load locale from any path');
-        }
-      } catch (error) {
-        console.error(`Failed to load ${lang} locale:`, error);
-        return null;
-      }
-    }
-    
     function applyLanguage(lang) {
       const texts = i18n[lang];
       
@@ -112,24 +88,28 @@
           backButton.textContent = texts.mailer.backButton;
           document.documentElement.lang = lang;
         } else {
-          console.error('Some DOM elements not found:', { logo, title, backButton });
+          console.error('Some DOM elements not found:', { logo, title, subtitle, backButton });
         }
       } else {
         console.error('Mailer texts not found in locale:', texts);
       }
     }
     
-    async function initI18n() {
+    function initI18n() {
       const lang = detectLanguage();
       
-      const localeData = await loadLocale(lang);
-      if (localeData) {
+      if (i18n[lang]) {
         applyLanguage(lang);
       } else {
         console.error('Failed to initialize i18n');
       }
     }
     
-    initI18n();
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initI18n);
+    } else {
+      initI18n();
+    }
   </script>
 </html>
