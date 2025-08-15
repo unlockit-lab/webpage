@@ -15,9 +15,12 @@ export default defineConfig({
       input: {
         main: fileURLToPath(new URL('./index.html', import.meta.url)),
         mailer: fileURLToPath(new URL('./mailer.html', import.meta.url)),
+        'locales/en': fileURLToPath(new URL('./src/locales/en.json', import.meta.url)),
+        'locales/pl': fileURLToPath(new URL('./src/locales/pl.json', import.meta.url)),
       },
     },
   },
+  publicDir: 'public',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
