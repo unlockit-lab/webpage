@@ -144,13 +144,15 @@
     },
     "finalCta": {
       "title": "Gotowy na Rozpoczęcie Kariery w IT?",
-      "subtitle": "Zapisz się na już dziś i otrzymaj prezent po webinarze.",
+      "subtitle": "Zapisz się już dziś i otrzymaj prezent po webinarze.",
       "emailPlaceholder": "Wprowadź swój adres e-mail",
-      "subscribeButton": "Zapisz się teraz",
-      "subscribingButton": "Zapisywanie...",
-      "successMessage": "Dziękujemy za zapisanie się! Będziesz informować Cię na bieżąco.",
-      "errorMessage": "Coś poszło nie tak. Spróbuj ponownie.",
-      "clickToSubscribe": "Kliknij, aby otworzyć formularz subskrypcji"
+      "subscribeButton": "Zapisz się teraz"
     }
+  },
+  "mailer": {
+    "pageTitle": "Zapisz się - UnlockIT",
+    "logo": "UnlockIT",
+    "title": "EnterIT - webinar",
+    "backButton": "← Powrót do EnterIT"
   }
 }

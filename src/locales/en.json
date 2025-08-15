@@ -146,11 +146,13 @@
       "title": "Ready to Launch Your IT Career?",
       "subtitle": "Subscribe today and receive a free gift after the webinar.",
       "emailPlaceholder": "Enter your email address",
-      "subscribeButton": "Subscribe Now",
-      "subscribingButton": "Subscribing...",
-      "successMessage": "Thanks for subscribing! We'll keep you posted.",
-      "errorMessage": "Something went wrong. Please try again.",
-      "clickToSubscribe": "Click to open subscription form"
+      "subscribeButton": "Subscribe Now"
     }
+  },
+  "mailer": {
+    "pageTitle": "Subscribe - UnlockIT",
+    "logo": "UnlockIT",
+    "title": "Subscribe to Our Newsletter",
+    "backButton": "← Back to EnterIT"
   }
 }
