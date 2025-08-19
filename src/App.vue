@@ -31,10 +31,10 @@
                 class="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full animate-pulse"
               ></span>
             </router-link>
-            <a
-              href="#about"
+            <router-link
+              to="/about"
               class="text-gray-600 hover:text-primary-600 font-medium transition-colors"
-              >{{ $t('nav.about') }}</a
+              >{{ $t('nav.about') }}</router-link
             >
             <a
               href="#contact"
