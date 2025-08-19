@@ -49,6 +49,12 @@
       "title": "IT Essentials",
       "description": "Master essential IT skills including networking, security, and system administration.",
       "duration": "10 weeks"
+    },
+    "status": {
+      "inPreparation": "In Preparation",
+      "comingSoon": "Registration Soon!",
+      "tba": "TBA",
+      "notifyButton": "Notify me when course is available"
     }
   },
   "cta": {
