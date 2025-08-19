@@ -203,9 +203,9 @@
             <h3 class="font-semibold mb-4">{{ $t('footer.courses') }}</h3>
             <ul class="space-y-2 text-gray-400">
               <li>
-                <a href="#" class="hover:text-white transition-colors">{{
+                <router-link to="/courses/ai-fundamentals" class="hover:text-white transition-colors">{{
                   $t('courses.aiFundamentals.title')
-                }}</a>
+                }}</router-link>
               </li>
               <li>
                 <a href="#" class="hover:text-white transition-colors">{{
