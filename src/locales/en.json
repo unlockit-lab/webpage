@@ -8,11 +8,11 @@
   },
   "hero": {
     "title": "Unlock Your",
-    "titleHighlight": "Tech Potential",
+    "titleHighlight": "Potential",
     "subtitle": "Master AI and IT fundamentals with our beginner-friendly courses. Start your journey into technology with expert guidance and hands-on learning.",
     "startLearning": "Start Learning Today",
     "viewCourses": "View Courses",
-    "students": "500+ Students",
+    "satisfaction": "100% satisfaction",
     "instructors": "Expert Instructors",
     "jobReady": "Job-Ready Skills"
   },
@@ -29,7 +29,7 @@
     },
     "expertSupport": {
       "title": "Expert Support",
-      "description": "Get guidance from industry professionals with years of experience in AI, programming, and IT."
+      "description": "Get guidance from industry professionals with years of experience in AI and programming."
     }
   },
   "courses": {
@@ -51,21 +51,13 @@
       "duration": "10 weeks"
     }
   },
-  "cta": {
-    "title": "Ready to Start Your Tech Journey?",
-    "subtitle": "Join hundreds of students who have already transformed their careers with UnlockIT.",
-    "browseAll": "Browse All Courses",
-    "talkAdvisor": "Talk to an Advisor"
-  },
   "footer": {
     "description": "Empowering beginners to master AI and the necessary knowledge to work in IT through expert-led training and hands-on learning experiences.",
     "courses": "Courses",
     "company": "Company",
     "aboutUs": "About Us",
     "instructors": "Instructors",
-    "careers": "Careers",
-    "programmingBasics": "Programming Basics",
-    "copyright": "2024 UnlockIT. All rights reserved."
+    "copyright": "2025 UnlockIT. All rights reserved."
   },
   "courseCards": {
     "aiBasics": "AI Basics",

@@ -39,16 +39,6 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span>{{ $t('hero.students') }}</span>
-              </div>
-              <div class="flex items-center space-x-2">
-                <svg class="w-5 h-5 text-success-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
                 <span>{{ $t('hero.instructors') }}</span>
               </div>
               <div class="flex items-center space-x-2">
@@ -60,6 +50,16 @@
                   />
                 </svg>
                 <span>{{ $t('hero.jobReady') }}</span>
+              </div>
+              <div class="flex items-center space-x-2">
+                <svg class="w-5 h-5 text-success-500" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span>{{ $t('hero.satisfaction') }}</span>
               </div>
             </div>
           </div>
@@ -303,29 +303,6 @@
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-16 bg-gradient-to-br from-primary-600 to-primary-800">
-      <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">
-          {{ $t('cta.title') }}
-        </h2>
-        <p class="text-xl text-primary-100 mb-8">
-          {{ $t('cta.subtitle') }}
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
-          >
-            {{ $t('cta.browseAll') }}
-          </button>
-          <button
-            class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
-          >
-            {{ $t('cta.talkAdvisor') }}
-          </button>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 

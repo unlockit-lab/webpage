@@ -8,11 +8,11 @@
   },
   "hero": {
     "title": "Odblokuj Swój",
-    "titleHighlight": "Potencjał Technologiczny",
+    "titleHighlight": "Potencjał",
     "subtitle": "Opanuj podstawy AI i IT dzięki naszym kursom dla początkujących. Rozpocznij swoją podróż w technologie z fachowym przewodnictwem i praktyczną nauką.",
     "startLearning": "Rozpocznij Naukę Dziś",
     "viewCourses": "Zobacz Kursy",
-    "students": "500+ Uczniów",
+    "satisfaction": "100% satysfakcji",
     "instructors": "Doświadczeni Instruktorzy",
     "jobReady": "Umiejętności Gotowe do Pracy"
   },
@@ -29,7 +29,7 @@
     },
     "expertSupport": {
       "title": "Wsparcie Ekspertów",
-      "description": "Otrzymaj wskazówki od profesjonalistów z branży z wieloletnim doświadczeniem w AI, programowaniu i IT."
+      "description": "Otrzymaj wskazówki od profesjonalistów z branży z wieloletnim doświadczeniem w AI i programowaniu."
     }
   },
   "courses": {
@@ -51,21 +51,13 @@
       "duration": "10 tygodni"
     }
   },
-  "cta": {
-    "title": "Gotowy na Rozpoczęcie Swojej Przygody z Technologią?",
-    "subtitle": "Dołącz do setek uczniów, którzy już przekształcili swoje kariery dzięki UnlockIT.",
-    "browseAll": "Przeglądaj Wszystkie Kursy",
-    "talkAdvisor": "Porozmawiaj z Doradcą"
-  },
   "footer": {
     "description": "Wspieramy początkujących w opanowaniu AI i wiedzy niezbędnej do pracy w IT poprzez szkolenia prowadzone przez ekspertów i praktyczne doświadczenia edukacyjne.",
     "courses": "Kursy",
     "company": "Firma",
     "aboutUs": "O nas",
     "instructors": "Instruktorzy",
-    "careers": "Kariera",
-    "programmingBasics": "Podstawy Programowania",
-    "copyright": "2024 UnlockIT. Wszelkie prawa zastrzeżone."
+    "copyright": "2025 UnlockIT. Wszelkie prawa zastrzeżone."
   },
   "courseCards": {
     "aiBasics": "Podstawy AI",

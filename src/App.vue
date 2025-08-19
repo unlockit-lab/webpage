@@ -23,11 +23,6 @@
           </div>
           <div class="hidden md:flex items-center space-x-8">
             <router-link
-              to="/#courses"
-              class="text-gray-600 hover:text-primary-600 font-medium transition-colors"
-              >{{ $t('nav.courses') }}</router-link
-            >
-            <router-link
               to="/enterit"
               class="text-gray-600 hover:text-primary-600 font-medium transition-colors relative"
             >
@@ -75,18 +70,18 @@
               >
                 <div class="py-1">
                   <button
-                    @click="changeLanguage('en')"
-                    class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    :class="{ 'bg-primary-50 text-primary-600': currentLocale === 'en' }"
-                  >
-                    🇺🇸 English
-                  </button>
-                  <button
                     @click="changeLanguage('pl')"
                     class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     :class="{ 'bg-primary-50 text-primary-600': currentLocale === 'pl' }"
                   >
                     🇵🇱 Polski
+                  </button>
+                  <button
+                    @click="changeLanguage('en')"
+                    class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    :class="{ 'bg-primary-50 text-primary-600': currentLocale === 'en' }"
+                  >
+                    🇺🇸 English
                   </button>
                 </div>
               </div>
@@ -115,11 +110,6 @@
       <div v-if="mobileMenuOpen" class="md:hidden bg-white border-t border-gray-100">
         <div class="px-4 py-2 space-y-2">
           <router-link
-            to="/#courses"
-            class="block px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
-            >{{ $t('nav.courses') }}</router-link
-          >
-          <router-link
             to="/enterit"
             class="block px-3 py-2 text-gray-600 hover:text-primary-600 font-medium flex items-center"
           >
@@ -138,18 +128,18 @@
           >
           <div class="border-t border-gray-200 pt-2">
             <button
-              @click="changeLanguage('en')"
-              class="block w-full text-left px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
-              :class="{ 'text-primary-600': currentLocale === 'en' }"
-            >
-              🇺🇸 English
-            </button>
-            <button
               @click="changeLanguage('pl')"
               class="block w-full text-left px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
               :class="{ 'text-primary-600': currentLocale === 'pl' }"
             >
               🇵🇱 Polski
+            </button>
+            <button
+              @click="changeLanguage('en')"
+              class="block w-full text-left px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
+              :class="{ 'text-primary-600': currentLocale === 'en' }"
+            >
+              🇺🇸 English
             </button>
           </div>
           <button
@@ -227,11 +217,6 @@
                   $t('courses.itEssentials.title')
                 }}</a>
               </li>
-              <li>
-                <a href="#" class="hover:text-white transition-colors">{{
-                  $t('footer.programmingBasics')
-                }}</a>
-              </li>
             </ul>
           </div>
           <div>
@@ -258,11 +243,6 @@
               </li>
               <li>
                 <a href="#" class="hover:text-white transition-colors">{{ $t('nav.contact') }}</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-white transition-colors">{{
-                  $t('footer.careers')
-                }}</a>
               </li>
             </ul>
           </div>
