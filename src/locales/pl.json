@@ -25,7 +25,7 @@
     },
     "handsOn": {
       "title": "Praktyczna Nauka",
-      "description": "Buduj prawdziwe projekty i zdobywaj praktyczne doświadczenie dzięki interaktywnym ćwiczeniom programistycznym i rzeczywistym aplikacjom."
+      "description": "Buduj prawdziwe projekty i zdobywaj praktyczne do��wiadczenie dzięki interaktywnym ćwiczeniom programistycznym i rzeczywistym aplikacjom."
     },
     "expertSupport": {
       "title": "Wsparcie Ekspertów",
@@ -49,6 +49,12 @@
       "title": "Podstawy IT",
       "description": "Opanuj niezbędne umiejętności IT, w tym sieć, bezpieczeństwo i administrację systemami.",
       "duration": "10 tygodni"
+    },
+    "status": {
+      "inPreparation": "W przygotowaniu",
+      "comingSoon": "Zapisy wkrótce!",
+      "tba": "Do ustalenia",
+      "notifyButton": "Informuj mnie kiedy kurs będzie dostępny"
     }
   },
   "cta": {
