@@ -254,7 +254,9 @@
           >
             <!-- Preparation Badge -->
             <div class="absolute top-4 right-4 z-10">
-              <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+              <span
+                class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded-full"
+              >
                 {{ $t('courses.status.inPreparation') }}
               </span>
             </div>
@@ -271,7 +273,11 @@
               <!-- Overlay for preparation status -->
               <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
                 <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </div>
             </div>
@@ -291,15 +297,18 @@
                   $t('courses.webDevelopment.duration')
                 }}</span>
               </div>
-              <button class="w-full bg-success-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-success-700 transition-colors flex items-center justify-center gap-2">
+              <button
+                class="w-full bg-success-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-success-700 transition-colors flex items-center justify-center gap-2"
+              >
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+                  <path
+                    d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"
+                  />
                 </svg>
                 {{ $t('courses.status.notifyButton') }}
               </button>
             </div>
           </div>
-
         </div>
       </div>
     </section>
