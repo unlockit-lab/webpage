@@ -223,7 +223,7 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-2 gap-8">
           <router-link
             to="/courses/ai-fundamentals"
             class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group block"
