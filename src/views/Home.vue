@@ -224,8 +224,9 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div
-            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+          <router-link
+            to="/courses/ai-fundamentals"
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group block"
           >
             <div
               class="h-48 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center"
@@ -246,7 +247,7 @@
                 }}</span>
               </div>
             </div>
-          </div>
+          </router-link>
 
           <div
             class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
