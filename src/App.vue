@@ -237,9 +237,9 @@
                 </router-link>
               </li>
               <li>
-                <a href="#" class="hover:text-white transition-colors">{{
+                <router-link to="/instructors" class="hover:text-white transition-colors">{{
                   $t('footer.instructors')
-                }}</a>
+                }}</router-link>
               </li>
               <li>
                 <a href="#" class="hover:text-white transition-colors">{{ $t('nav.contact') }}</a>
