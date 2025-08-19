@@ -146,31 +146,49 @@
         <!-- Timeline -->
         <div class="relative">
           <!-- Timeline line -->
-          <div class="absolute left-1/2 transform -translate-x-0.5 w-1 h-full bg-gradient-to-b from-primary-200 via-primary-400 to-primary-600"></div>
+          <div
+            class="absolute left-1/2 transform -translate-x-0.5 w-1 h-full bg-gradient-to-b from-primary-200 via-primary-400 to-primary-600"
+          ></div>
 
           <!-- Timeline Events -->
           <div class="space-y-12">
             <!-- Event 1: Foundation -->
             <div class="relative flex items-center">
               <div class="flex-1 pr-8 text-right">
-                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-primary-500 hover:shadow-xl transition-shadow">
-                  <div class="text-sm font-semibold text-primary-600 mb-2">{{ $t('about.timeline.event1.year') }}</div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{{ $t('about.timeline.event1.title') }}</h3>
+                <div
+                  class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-primary-500 hover:shadow-xl transition-shadow"
+                >
+                  <div class="text-sm font-semibold text-primary-600 mb-2">
+                    {{ $t('about.timeline.event1.year') }}
+                  </div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    {{ $t('about.timeline.event1.title') }}
+                  </h3>
                   <p class="text-gray-600">{{ $t('about.timeline.event1.description') }}</p>
                 </div>
               </div>
-              <div class="relative z-10 w-4 h-4 bg-primary-500 rounded-full border-4 border-white shadow-lg"></div>
+              <div
+                class="relative z-10 w-4 h-4 bg-primary-500 rounded-full border-4 border-white shadow-lg"
+              ></div>
               <div class="flex-1 pl-8"></div>
             </div>
 
             <!-- Event 2: First Students -->
             <div class="relative flex items-center">
               <div class="flex-1 pr-8"></div>
-              <div class="relative z-10 w-4 h-4 bg-success-500 rounded-full border-4 border-white shadow-lg"></div>
+              <div
+                class="relative z-10 w-4 h-4 bg-success-500 rounded-full border-4 border-white shadow-lg"
+              ></div>
               <div class="flex-1 pl-8">
-                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-success-500 hover:shadow-xl transition-shadow">
-                  <div class="text-sm font-semibold text-success-600 mb-2">{{ $t('about.timeline.event2.year') }}</div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{{ $t('about.timeline.event2.title') }}</h3>
+                <div
+                  class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-success-500 hover:shadow-xl transition-shadow"
+                >
+                  <div class="text-sm font-semibold text-success-600 mb-2">
+                    {{ $t('about.timeline.event2.year') }}
+                  </div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    {{ $t('about.timeline.event2.title') }}
+                  </h3>
                   <p class="text-gray-600">{{ $t('about.timeline.event2.description') }}</p>
                 </div>
               </div>
@@ -179,24 +197,40 @@
             <!-- Event 3: AI Focus -->
             <div class="relative flex items-center">
               <div class="flex-1 pr-8 text-right">
-                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-purple-500 hover:shadow-xl transition-shadow">
-                  <div class="text-sm font-semibold text-purple-600 mb-2">{{ $t('about.timeline.event3.year') }}</div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{{ $t('about.timeline.event3.title') }}</h3>
+                <div
+                  class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-purple-500 hover:shadow-xl transition-shadow"
+                >
+                  <div class="text-sm font-semibold text-purple-600 mb-2">
+                    {{ $t('about.timeline.event3.year') }}
+                  </div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    {{ $t('about.timeline.event3.title') }}
+                  </h3>
                   <p class="text-gray-600">{{ $t('about.timeline.event3.description') }}</p>
                 </div>
               </div>
-              <div class="relative z-10 w-4 h-4 bg-purple-500 rounded-full border-4 border-white shadow-lg"></div>
+              <div
+                class="relative z-10 w-4 h-4 bg-purple-500 rounded-full border-4 border-white shadow-lg"
+              ></div>
               <div class="flex-1 pl-8"></div>
             </div>
 
             <!-- Event 4: Community Growth -->
             <div class="relative flex items-center">
               <div class="flex-1 pr-8"></div>
-              <div class="relative z-10 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow-lg"></div>
+              <div
+                class="relative z-10 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow-lg"
+              ></div>
               <div class="flex-1 pl-8">
-                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-orange-500 hover:shadow-xl transition-shadow">
-                  <div class="text-sm font-semibold text-orange-600 mb-2">{{ $t('about.timeline.event4.year') }}</div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{{ $t('about.timeline.event4.title') }}</h3>
+                <div
+                  class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-orange-500 hover:shadow-xl transition-shadow"
+                >
+                  <div class="text-sm font-semibold text-orange-600 mb-2">
+                    {{ $t('about.timeline.event4.year') }}
+                  </div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    {{ $t('about.timeline.event4.title') }}
+                  </h3>
                   <p class="text-gray-600">{{ $t('about.timeline.event4.description') }}</p>
                 </div>
               </div>
@@ -205,13 +239,21 @@
             <!-- Event 5: Present Day -->
             <div class="relative flex items-center">
               <div class="flex-1 pr-8 text-right">
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-lg shadow-lg p-6 border-l-4 border-primary-600 hover:shadow-xl transition-shadow">
-                  <div class="text-sm font-semibold text-primary-600 mb-2">{{ $t('about.timeline.event5.year') }}</div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{{ $t('about.timeline.event5.title') }}</h3>
+                <div
+                  class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-lg shadow-lg p-6 border-l-4 border-primary-600 hover:shadow-xl transition-shadow"
+                >
+                  <div class="text-sm font-semibold text-primary-600 mb-2">
+                    {{ $t('about.timeline.event5.year') }}
+                  </div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    {{ $t('about.timeline.event5.title') }}
+                  </h3>
                   <p class="text-gray-600">{{ $t('about.timeline.event5.description') }}</p>
                 </div>
               </div>
-              <div class="relative z-10 w-6 h-6 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full border-4 border-white shadow-lg animate-pulse"></div>
+              <div
+                class="relative z-10 w-6 h-6 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full border-4 border-white shadow-lg animate-pulse"
+              ></div>
               <div class="flex-1 pl-8"></div>
             </div>
           </div>
