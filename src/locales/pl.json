@@ -18,7 +18,7 @@
   },
   "features": {
     "title": "Dlaczego wybrać UnlockIT?",
-    "subtitle": "Sprawiamy, że złożona technologia staje się prosta i dostępna dla każdego, niezależnie od pochodzenia.",
+    "subtitle": "Sprawiamy, że złożona technologia staje si�� prosta i dostępna dla każdego, niezależnie od pochodzenia.",
     "beginnerFriendly": {
       "title": "Dla Początkujących",
       "description": "Zacznij od zera dzięki naszemu starannie zaprojektowanemu programowi nauczania, który dzieli złożone koncepcje na przystępne lekcje."
@@ -187,9 +187,34 @@
     },
     "story": {
       "title": "Nasza Historia",
-      "paragraph1": "UnlockIT został założony z prostą, ale potężną wizją: udostępnienie zaawansowanej edukacji technologicznej każdemu. Nasz założyciel, Michał Wroński, zauważył, że chociaż AI i IT transformują każdą branżę, jakościowa edukacja w tych dziedzinach pozostaje poza zasięgiem wielu ludzi.",
-      "paragraph2": "Zaczynając od małej grupy oddanych studentów, wyrosliśmy w kwitnącą społeczność uczących się i profesjonalistów. Nasze praktyczne podejście, połączone z fachową instrukcją i projektami z prawdziwego świata, pomogło setkom studentów z powodzeniem przejść do karier technologicznych.",
-      "paragraph3": "Dziś nadal wprowadzamy innowacje i poszerzamy naszą ofertę, zawsze pozostając wierni naszej podstawowej misji: odblokowanie potencjału każdego studenta, który przekracza nasze progi."
+      "subtitle": "Odkryj kluczowe momenty w rozwoju UnlockIT"
+    },
+    "timeline": {
+      "event1": {
+        "year": "2019",
+        "title": "Narodziny Wizji",
+        "description": "Michał Wroński dostrzega lukę w dostępie do jakościowej edukacji IT i AI. Rodzi się idea UnlockIT."
+      },
+      "event2": {
+        "year": "2020",
+        "title": "Pierwsi Studenci",
+        "description": "Rozpoczynamy z małą grupą oddanych studentów. Pierwsze kursy IT przyciągają zainteresowanych z całej Polski."
+      },
+      "event3": {
+        "year": "2022",
+        "title": "Fokus na AI",
+        "description": "Wprowadzamy pionierskie kursy sztucznej inteligencji. Stajemy się liderem w edukacji AI dla początkujących."
+      },
+      "event4": {
+        "year": "2023",
+        "title": "Rozwój Społeczności",
+        "description": "Nasza społeczność rośnie do 500+ studentów. Praktyczne projekty i mentoring przynoszą rzeczywiste efekty."
+      },
+      "event5": {
+        "year": "2024",
+        "title": "Teraźniejszość",
+        "description": "Kontynuujemy innowacje i rozszerzamy ofertę, pomagając kolejnym osobom rozpocząć karierę w technologii."
+      }
     },
     "cta": {
       "title": "Gotowy na Rozpoczęcie Swojej Podróży?",
