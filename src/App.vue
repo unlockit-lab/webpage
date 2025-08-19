@@ -116,10 +116,10 @@
             {{ $t('nav.enterit') }}
             <span class="ml-2 w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
           </router-link>
-          <a
-            href="#about"
+          <router-link
+            to="/about"
             class="block px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
-            >{{ $t('nav.about') }}</a
+            >{{ $t('nav.about') }}</router-link
           >
           <a
             href="#contact"
