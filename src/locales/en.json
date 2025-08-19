@@ -187,9 +187,34 @@
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "UnlockIT was founded with a simple yet powerful vision: to make advanced technology education accessible to everyone. Our founder, Michał Wroński, recognized that while AI and IT were transforming every industry, quality education in these fields remained out of reach for many people.",
-      "paragraph2": "Starting with a small group of dedicated students, we've grown into a thriving community of learners and professionals. Our hands-on approach, combined with expert instruction and real-world projects, has helped hundreds of students successfully transition into tech careers.",
-      "paragraph3": "Today, we continue to innovate and expand our offerings, always staying true to our core mission: unlocking the potential of every student who walks through our doors."
+      "subtitle": "Discover the key moments in UnlockIT's development"
+    },
+    "timeline": {
+      "event1": {
+        "year": "2019",
+        "title": "Birth of a Vision",
+        "description": "Michał Wroński identifies a gap in accessible, quality IT and AI education. The idea of UnlockIT is born."
+      },
+      "event2": {
+        "year": "2020",
+        "title": "First Students",
+        "description": "We start with a small group of dedicated students. First IT courses attract interested learners from across Poland."
+      },
+      "event3": {
+        "year": "2022",
+        "title": "AI Focus",
+        "description": "We introduce pioneering artificial intelligence courses. We become a leader in AI education for beginners."
+      },
+      "event4": {
+        "year": "2023",
+        "title": "Community Growth",
+        "description": "Our community grows to 500+ students. Practical projects and mentoring deliver real results."
+      },
+      "event5": {
+        "year": "2024",
+        "title": "Present Day",
+        "description": "We continue to innovate and expand our offerings, helping more people start their careers in technology."
+      }
     },
     "cta": {
       "title": "Ready to Start Your Journey?",
