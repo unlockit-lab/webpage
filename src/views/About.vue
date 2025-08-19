@@ -1,7 +1,9 @@
 <template>
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->
-    <section class="pt-20 pb-16 lg:pt-28 lg:pb-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section
+      class="pt-20 pb-16 lg:pt-28 lg:pb-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100"
+    >
       <div class="max-w-7xl mx-auto text-center">
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
           {{ $t('about.hero.title') }}
@@ -64,39 +66,63 @@
             {{ $t('about.values.subtitle') }}
           </p>
         </div>
-        
+
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+          <div
+            class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center"
+          >
+            <div
+              class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
               <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ $t('about.values.quality.title') }}</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              {{ $t('about.values.quality.title') }}
+            </h3>
             <p class="text-gray-600 leading-relaxed">
               {{ $t('about.values.quality.description') }}
             </p>
           </div>
-          
-          <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <div class="w-16 h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-6">
+
+          <div
+            class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center"
+          >
+            <div
+              class="w-16 h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
               <svg class="w-8 h-8 text-success-600" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                <path
+                  d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"
+                />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ $t('about.values.community.title') }}</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              {{ $t('about.values.community.title') }}
+            </h3>
             <p class="text-gray-600 leading-relaxed">
               {{ $t('about.values.community.description') }}
             </p>
           </div>
-          
-          <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+
+          <div
+            class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center"
+          >
+            <div
+              class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
               <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
+                <path
+                  fill-rule="evenodd"
+                  d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                  clip-rule="evenodd"
+                />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ $t('about.values.innovation.title') }}</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              {{ $t('about.values.innovation.title') }}
+            </h3>
             <p class="text-gray-600 leading-relaxed">
               {{ $t('about.values.innovation.description') }}
             </p>
@@ -113,7 +139,7 @@
             {{ $t('about.story.title') }}
           </h2>
         </div>
-        
+
         <div class="prose prose-lg max-w-none">
           <p class="text-lg text-gray-600 mb-6 leading-relaxed">
             {{ $t('about.story.paragraph1') }}
@@ -138,13 +164,13 @@
           {{ $t('about.cta.subtitle') }}
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <router-link 
+          <router-link
             to="/#courses"
             class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
           >
             {{ $t('about.cta.viewCourses') }}
           </router-link>
-          <router-link 
+          <router-link
             to="/instructors"
             class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
           >
