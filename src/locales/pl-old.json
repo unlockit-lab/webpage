@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "courses": "Kursy",
+    "enterit": "EnterIT",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "getStarted": "Rozpocznij"
+  },
+  "hero": {
+    "title": "Odblokuj Swój",
+    "titleHighlight": "Potencjał",
+    "subtitle": "Opanuj podstawy AI i IT dzięki naszym kursom dla początkujących. Rozpocznij swoją podróż w technologie z fachowym przewodnictwem i praktyczną nauką.",
+    "startLearning": "Rozpocznij Naukę Dziś",
+    "viewCourses": "Zobacz Kursy",
+    "satisfaction": "100% satysfakcji",
+    "instructors": "Doświadczeni Instruktorzy",
+    "jobReady": "Umiejętności Gotowe do Pracy"
+  },
+  "features": {
+    "title": "Dlaczego wybrać UnlockIT?",
+    "subtitle": "Sprawiamy, że złożona technologia staje się prosta i dostępna dla każdego, niezależnie od pochodzenia.",
+    "beginnerFriendly": {
+      "title": "Dla Początkujących",
+      "description": "Zacznij od zera dzięki naszemu starannie zaprojektowanemu programowi nauczania, który dzieli złożone koncepcje na przystępne lekcje."
+    },
+    "handsOn": {
+      "title": "Praktyczna Nauka",
+      "description": "Buduj prawdziwe projekty i zdobywaj praktyczne doświadczenie dzięki interaktywnym ćwiczeniom programistycznym i rzeczywistym aplikacjom."
+    },
+    "expertSupport": {
+      "title": "Wsparcie Ekspertów",
+      "description": "Otrzymaj wskazówki od profesjonalistów z branży z wieloletnim doświadczeniem w AI i programowaniu."
+    }
+  },
+  "courses": {
+    "title": "Popularne Kursy",
+    "subtitle": "Rozpocznij swoją podróż od naszych najlepiej ocenianych kursów",
+    "aiFundamentals": {
+      "title": "Podstawy AI",
+      "description": "Poznaj podstawy sztucznej inteligencji, koncepcje uczenia maszynowego i praktyczne zastosowania.",
+      "duration": "8 tygodni"
+    },
+    "webDevelopment": {
+      "title": "Rozwój Stron Internetowych",
+      "description": "Buduj nowoczesne strony internetowe z HTML, CSS, JavaScript i popularnymi frameworkami.",
+      "duration": "12 tygodni"
+    },
+    "itEssentials": {
+      "title": "Podstawy IT",
+      "description": "Opanuj niezbędne umiejętności IT, w tym sieć, bezpieczeństwo i administrację systemami.",
+      "duration": "10 tygodni"
+    }
+  },
+  "footer": {
+    "description": "Wspieramy początkujących w opanowaniu AI i wiedzy niezbędnej do pracy w IT poprzez szkolenia prowadzone przez ekspertów i praktyczne doświadczenia edukacyjne.",
+    "courses": "Kursy",
+    "company": "Firma",
+    "aboutUs": "O nas",
+    "instructors": "Instruktorzy",
+    "copyright": "2025 UnlockIT. Wszelkie prawa zastrzeżone."
+  },
+  "courseCards": {
+    "aiBasics": "Podstawy AI",
+    "aiDescription": "Naucz się podstaw AI",
+    "programming": "Programowanie",
+    "programmingDescription": "Kodowanie od podstaw",
+    "webDev": "Rozwój Web",
+    "webDevDescription": "Buduj strony internetowe",
+    "itSkills": "Umiejętności IT",
+    "itDescription": "Podstawy technologii"
+  },
+  "enterit": {
+    "badge": "Darmowy Webinar",
+    "title": "EnterIT",
+    "subtitle": "Twój kompletny przewodnik po wejściu do branży IT. Poznaj kluczowe strategie poszukiwania pracy, przygotowania do rozmów kwalifikacyjnych, nawiązywania kontaktów z rekruterami i wykorzystania AI do przyspieszonej nauki.",
+    "date": {
+      "title": "Data"
+    },
+    "countdown": {
+      "title": "Czas do Webinaru",
+      "days": "Dni",
+      "hours": "Godzin",
+      "minutes": "Minut",
+      "seconds": "Sekund"
+    },
+    "duration": {
+      "title": "Czas trwania",
+      "value": "90 minut"
+    },
+    "format": {
+      "title": "Format",
+      "value": "Na żywo online"
+    },
+    "registerButton": "Zarezerwuj Miejsce",
+    "freeEvent": "100% Darmowe Wydarzenie - Ograniczona Liczba Miejsc",
+    "whatYoullLearn": {
+      "title": "Czego Się Nauczysz",
+      "subtitle": "Otrzymaj praktyczne, wykonalne strategie do rozpoczęcia kariery w IT"
+    },
+    "modules": {
+      "jobSearch": {
+        "title": "Jak Zacząć Szukać Pracy w IT",
+        "point1": "Zidentyfikuj najlepsze stanowiska dla początkujących dla Twojego doświadczenia",
+        "point2": "Stwórz przekonujące portfolio nawet bez doświadczenia",
+        "point3": "Skutecznie nawiguj po portalach pracy i stronach firm"
+      },
+      "interview": {
+        "title": "Jak Przygotować Się do Rozmów Kwalifikacyjnych",
+        "point1": "Opanuj typowe pytania techniczne i behawioralne",
+        "point2": "Zaprezentuj swoje umiejętności przez praktyczne przykłady",
+        "point3": "Radź sobie z negocjacjami płacy i komunikacją następczą"
+      },
+      "recruiters": {
+        "title": "Jak Znaleźć Rekruterów",
+        "point1": "Zbuduj profesjonalną sieć na LinkedIn i innych platformach",
+        "point2": "Nawiąż kontakt z rekruterami IT w docelowych firmach",
+        "point3": "Utrzymuj relacje i otrzymuj rekomendacje"
+      },
+      "aiLearning": {
+        "title": "Jak Uczyć Się z AI",
+        "point1": "Używaj narzędzi AI do przyspieszenia procesu nauki",
+        "point2": "Otrzymaj spersonalizowane ścieżki nauki i ćwiczenia praktyczne",
+        "point3": "Bądź na bieżąco z najnowszymi technologiami i trendami"
+      }
+    },
+    "speaker": {
+      "title": "Poznaj Prelegenta",
+      "subtitle": "Ucz się od eksperta branżowego z udowodnionymi wynikami",
+      "name": "Michał Wroński",
+      "role": "Senior Coach Kariery IT i Założyciel UnlockIT",
+      "bio": "15+ lat doświadczenia w branży IT - tysiące linii kodu produkcyjnego, tuziny projektów i setka praktykantów. Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne i realne porady.",
+      "experience": "Ponad 15 Lat Doświadczenia",
+      "expertise1": "Coaching Kariery",
+      "expertise2": "AI i Technologia",
+      "viewProfile": "Zobacz Profil LinkedIn"
+    },
+    "finalCta": {
+      "title": "Gotowy na Rozpoczęcie Kariery w IT?",
+      "subtitle": "Zapisz się już dziś i otrzymaj prezent po webinarze.",
+      "emailPlaceholder": "Wprowadź swój adres e-mail",
+      "subscribeButton": "Zapisz się teraz"
+    }
+  },
+  "mailer": {
+    "pageTitle": "Zapisz się - UnlockIT",
+    "logo": "UnlockIT",
+    "title": "EnterIT - webinar",
+    "backButton": "← Powrót do EnterIT"
+  }
+}
