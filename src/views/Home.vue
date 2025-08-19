@@ -250,10 +250,16 @@
           </router-link>
 
           <div
-            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group relative"
           >
+            <!-- Preparation Badge -->
+            <div class="absolute top-4 right-4 z-10">
+              <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                {{ $t('courses.status.inPreparation') }}
+              </span>
+            </div>
             <div
-              class="h-48 bg-gradient-to-br from-success-400 to-success-600 flex items-center justify-center"
+              class="h-48 bg-gradient-to-br from-success-400 to-success-600 flex items-center justify-center relative"
             >
               <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path
@@ -262,42 +268,82 @@
                   clip-rule="evenodd"
                 />
               </svg>
+              <!-- Overlay for preparation status -->
+              <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+              </div>
             </div>
             <div class="p-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">
                 {{ $t('courses.webDevelopment.title') }}
               </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.webDevelopment.description') }}</p>
-              <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-primary-600"></span>
+              <div class="mb-4">
+                <p class="text-sm text-orange-600 font-medium">
+                  {{ $t('courses.status.comingSoon') }}
+                </p>
+              </div>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-2xl font-bold text-gray-400">{{ $t('courses.status.tba') }}</span>
                 <span class="text-sm text-gray-500">{{
                   $t('courses.webDevelopment.duration')
                 }}</span>
               </div>
+              <button class="w-full bg-success-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-success-700 transition-colors flex items-center justify-center gap-2">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+                </svg>
+                {{ $t('courses.status.notifyButton') }}
+              </button>
             </div>
           </div>
 
           <div
-            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group relative"
           >
+            <!-- Preparation Badge -->
+            <div class="absolute top-4 right-4 z-10">
+              <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                {{ $t('courses.status.inPreparation') }}
+              </span>
+            </div>
             <div
-              class="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center"
+              class="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center relative"
             >
               <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path
                   d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
                 />
               </svg>
+              <!-- Overlay for preparation status -->
+              <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+              </div>
             </div>
             <div class="p-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">
                 {{ $t('courses.itEssentials.title') }}
               </h3>
               <p class="text-gray-600 mb-4">{{ $t('courses.itEssentials.description') }}</p>
-              <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-primary-600"></span>
+              <div class="mb-4">
+                <p class="text-sm text-orange-600 font-medium">
+                  {{ $t('courses.status.comingSoon') }}
+                </p>
+              </div>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-2xl font-bold text-gray-400">{{ $t('courses.status.tba') }}</span>
                 <span class="text-sm text-gray-500">{{ $t('courses.itEssentials.duration') }}</span>
               </div>
+              <button class="w-full bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors flex items-center justify-center gap-2">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+                </svg>
+                {{ $t('courses.status.notifyButton') }}
+              </button>
             </div>
           </div>
         </div>
