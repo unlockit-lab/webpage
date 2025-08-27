@@ -209,16 +209,18 @@
             <h3 class="font-semibold mb-4">{{ $t('footer.courses') }}</h3>
             <ul class="space-y-2 text-gray-400">
               <li>
-                <router-link
+                <!-- <router-link
                   to="/courses/ai-fundamentals"
                   class="hover:text-white transition-colors"
-                  >{{ $t('courses.aiFundamentals.title') }}</router-link
-                >
+                  > -->
+                  {{ $t('courses.aiFundamentals.title') }}
+                  <!-- </router-link -->
               </li>
               <li>
-                <a href="#" class="hover:text-white transition-colors">{{
-                  $t('courses.codingBasics.title')
-                }}</a>
+                <!-- <a href="#" class="hover:text-white transition-colors"> -->
+                  {{
+                  $t('courses.codingBasics.title')}}
+                  <!-- </a> -->
               </li>
             </ul>
           </div>
@@ -226,9 +228,9 @@
             <h3 class="font-semibold mb-4">{{ $t('footer.company') }}</h3>
             <ul class="space-y-2 text-gray-400">
               <li>
-                <router-link to="/about" class="hover:text-white transition-colors">{{
-                  $t('footer.aboutUs')
-                }}</router-link>
+                <router-link to="/about" class="hover:text-white transition-colors">
+                  {{$t('footer.aboutUs')}}
+                </router-link>
               </li>
               <li>
                 <router-link

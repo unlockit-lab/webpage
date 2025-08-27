@@ -20,11 +20,13 @@
             </p>
             <div class="flex flex-col sm:flex-row gap-4 animate-slide-up">
               <button
+                @click="$router.push('/enterit')"
                 class="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 {{ $t('hero.startLearning') }}
               </button>
               <button
+                @click="scrollToElement('courses')"
                 class="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:border-primary-600 hover:text-primary-600 transition-colors"
               >
                 {{ $t('hero.viewCourses') }}
@@ -379,4 +381,14 @@
 
 <script setup lang="ts">
 // Home page content - extracted from main App.vue
+
+const scrollToElement = (elementID: string) => {
+  const featuresSection = document.getElementById(elementID)
+  if (featuresSection) {
+    featuresSection.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    })
+  }
+}
 </script>
