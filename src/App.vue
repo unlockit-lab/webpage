@@ -37,7 +37,7 @@
               >{{ $t('nav.about') }}</router-link
             >
             <a
-              href="mailto:contact@unlockit-lab.com?subject=Contact from UnlockIT website"
+              :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`"
               class="text-gray-600 hover:text-primary-600 font-medium transition-colors cursor-pointer"
               >{{ $t('nav.contact') }}</a
             >
@@ -122,7 +122,7 @@
             >{{ $t('nav.about') }}</router-link
           >
           <a
-            href="mailto:contact@unlockit-lab.com?subject=Contact from UnlockIT website"
+            :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`"
             class="block px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
             >{{ $t('nav.contact') }}</a
           >
@@ -247,7 +247,7 @@
                 }}</router-link>
               </li>
               <li>
-                <a href="mailto:contact@unlockit-lab.com?subject=Contact from UnlockIT website" class="hover:text-white transition-colors text-left w-full">{{ $t('nav.contact') }}</a>
+                <a :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`" class="hover:text-white transition-colors text-left w-full">{{ $t('nav.contact') }}</a>
               </li>
             </ul>
           </div>
@@ -264,6 +264,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import config from './config'
 
 const { locale, t } = useI18n()
 const router = useRouter()
