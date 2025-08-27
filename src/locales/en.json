@@ -40,20 +40,15 @@
       "description": "Learn the basics of artificial intelligence, machine learning concepts, and practical applications.",
       "duration": "8 weeks"
     },
-    "webDevelopment": {
+    "codingBasics": {
       "title": "Web Development",
       "description": "Build modern websites with HTML, CSS, JavaScript, and popular frameworks.",
       "duration": "12 weeks"
     },
-    "itEssentials": {
-      "title": "IT Essentials",
-      "description": "Master essential IT skills including networking, security, and system administration.",
-      "duration": "10 weeks"
-    },
     "status": {
       "inPreparation": "In Preparation",
       "comingSoon": "Registration Soon!",
-      "tba": "TBA",
+      "tba": "",
       "notifyButton": "Notify me when course is available"
     }
   },

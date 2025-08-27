@@ -217,12 +217,7 @@
               </li>
               <li>
                 <a href="#" class="hover:text-white transition-colors">{{
-                  $t('courses.webDevelopment.title')
-                }}</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-white transition-colors">{{
-                  $t('courses.itEssentials.title')
+                  $t('courses.codingBasics.title')
                 }}</a>
               </li>
             </ul>

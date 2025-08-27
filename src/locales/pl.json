@@ -40,20 +40,15 @@
       "description": "Poznaj podstawy sztucznej inteligencji, koncepcje uczenia maszynowego i praktyczne zastosowania.",
       "duration": "8 tygodni"
     },
-    "webDevelopment": {
-      "title": "Rozwój Stron Internetowych",
-      "description": "Buduj nowoczesne strony internetowe z HTML, CSS, JavaScript i popularnymi frameworkami.",
+    "codingBasics": {
+      "title": "Podstawy programowania",
+      "description": "Programowanie na backend i frontend od zera.",
       "duration": "12 tygodni"
-    },
-    "itEssentials": {
-      "title": "Podstawy IT",
-      "description": "Opanuj niezbędne umiejętności IT, w tym sieć, bezpieczeństwo i administrację systemami.",
-      "duration": "10 tygodni"
     },
     "status": {
       "inPreparation": "W przygotowaniu",
       "comingSoon": "Zapisy wkrótce!",
-      "tba": "Do ustalenia",
+      "tba": "",
       "notifyButton": "Informuj mnie kiedy kurs będzie dostępny"
     }
   },
