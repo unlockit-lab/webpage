@@ -37,8 +37,8 @@
               >{{ $t('nav.about') }}</router-link
             >
             <a
-              href="#contact"
-              class="text-gray-600 hover:text-primary-600 font-medium transition-colors"
+              href="mailto:contact@unlockit-lab.com?subject=Contact from UnlockIT website"
+              class="text-gray-600 hover:text-primary-600 font-medium transition-colors cursor-pointer"
               >{{ $t('nav.contact') }}</a
             >
 
@@ -122,7 +122,7 @@
             >{{ $t('nav.about') }}</router-link
           >
           <a
-            href="#contact"
+            href="mailto:contact@unlockit-lab.com?subject=Contact from UnlockIT website"
             class="block px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
             >{{ $t('nav.contact') }}</a
           >
@@ -247,7 +247,7 @@
                 }}</router-link>
               </li>
               <li>
-                <a href="#" class="hover:text-white transition-colors">{{ $t('nav.contact') }}</a>
+                <a href="mailto:contact@unlockit-lab.com?subject=Contact from UnlockIT website" class="hover:text-white transition-colors text-left w-full">{{ $t('nav.contact') }}</a>
               </li>
             </ul>
           </div>
