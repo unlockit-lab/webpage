@@ -197,29 +197,19 @@
     },
     "timeline": {
       "event1": {
-        "year": "2019",
-        "title": "Birth of a Vision",
-        "description": "Michał Wroński identifies a gap in accessible, quality IT and AI education. The idea of UnlockIT is born."
+        "year": "2011",
+        "title": "We start teaching",
+        "description": "We start teaching our first students and interns."
       },
       "event2": {
-        "year": "2020",
-        "title": "First Students",
-        "description": "We start with a small group of dedicated students. First IT courses attract interested learners from across Poland."
+        "year": "2017",
+        "title": "First conferences",
+        "description": "We start appearing at the first conferences and meetups."
       },
       "event3": {
-        "year": "2022",
-        "title": "AI Focus",
-        "description": "We introduce pioneering artificial intelligence courses. We become a leader in AI education for beginners."
-      },
-      "event4": {
-        "year": "2023",
-        "title": "Community Growth",
-        "description": "Our community grows to 500+ students. Practical projects and mentoring deliver real results."
-      },
-      "event5": {
-        "year": "2024",
-        "title": "Present Day",
-        "description": "We continue to innovate and expand our offerings, helping more people start their careers in technology."
+        "year": "2025",
+        "title": "UnlockIT",
+        "description": "We start officially as UnlockIT."
       }
     },
     "cta": {
@@ -236,7 +226,7 @@
     },
     "michal": {
       "role": "Lead Instructor & Founder",
-      "bio1": "With over 15 years of experience in the IT industry, Michał has worked on projects ranging from startup MVPs to enterprise-scale systems. His passion for teaching and mentoring has helped hundreds of students successfully transition into tech careers.",
+      "bio1": "With over 15 years of experience in the IT industry, Michał has worked on projects ranging from startup MVPs to enterprise-scale systems. His passion for teaching and mentoring has helped many students to start their careers in IT.",
       "bio2": "Michał believes in practical, hands-on learning combined with solid theoretical foundations. His teaching philosophy centers on making complex concepts accessible and immediately applicable to real-world scenarios.",
       "expertise": {
         "ai": "Artificial Intelligence",
@@ -246,14 +236,14 @@
       },
       "stats": {
         "years": "Years Experience",
-        "students": "Students Taught"
+        "students": "Students"
       }
     },
     "philosophy": {
       "title": "Our Teaching Philosophy",
       "practical": {
         "title": "Practical Learning",
-        "description": "Every concept is taught through real-world examples and hands-on projects that students can add to their portfolios."
+        "description": "Every concept is taught using real-world examples and practical projects."
       },
       "personalized": {
         "title": "Personalized Approach",

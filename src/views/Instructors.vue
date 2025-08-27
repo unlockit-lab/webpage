@@ -112,7 +112,7 @@
                     </div>
                   </div>
                   <div class="text-center p-4 bg-gray-50 rounded-lg">
-                    <div class="text-2xl font-bold text-success-600 mb-1">500+</div>
+                    <div class="text-2xl font-bold text-success-600 mb-1">100+</div>
                     <div class="text-sm text-gray-600">
                       {{ $t('instructors.michal.stats.students') }}
                     </div>
