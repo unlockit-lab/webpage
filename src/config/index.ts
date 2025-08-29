@@ -12,7 +12,7 @@ export const config: AppConfig = {
     targetDate: '2025-09-15T19:00:00', 
   },
   contact: {
-    email: 'q4nqyghxc8@privaterelay.appleid.com',
+    email: 'contact@unlockit.pl',
   },
 };
 
