@@ -14,7 +14,8 @@
     "viewCourses": "View Courses",
     "students": "500+ Students",
     "instructors": "Expert Instructors",
-    "jobReady": "Job-Ready Skills"
+    "jobReady": "Job-Ready Skills",
+    "satisfaction": "100% satisfaction"
   },
   "features": {
     "title": "Why Choose UnlockIT?",
@@ -40,15 +41,16 @@
       "description": "Learn the basics of artificial intelligence, machine learning concepts, and practical applications.",
       "duration": "8 weeks"
     },
-    "webDevelopment": {
+    "codingBasics": {
       "title": "Web Development",
       "description": "Build modern websites with HTML, CSS, JavaScript, and popular frameworks.",
       "duration": "12 weeks"
     },
-    "itEssentials": {
-      "title": "IT Essentials",
-      "description": "Master essential IT skills including networking, security, and system administration.",
-      "duration": "10 weeks"
+    "status": {
+      "inPreparation": "In Preparation",
+      "comingSoon": "Registration Soon!",
+      "tba": "",
+      "notifyButton": "Notify me when course is available"
     }
   },
   "cta": {
@@ -65,7 +67,7 @@
     "instructors": "Instructors",
     "careers": "Careers",
     "programmingBasics": "Programming Basics",
-    "copyright": "2024 UnlockIT. All rights reserved."
+    "copyright": "2025 UnlockIT. All rights reserved."
   },
   "courseCards": {
     "aiBasics": "AI Basics",
@@ -146,13 +148,186 @@
       "title": "Ready to Launch Your IT Career?",
       "subtitle": "Subscribe today and receive a free gift after the webinar.",
       "emailPlaceholder": "Enter your email address",
-      "subscribeButton": "Subscribe Now"
+      "subscribeButton": "Subscribe Now",
+      "subscribingButton": "Subscribing...",
+      "successMessage": "Thanks for subscribing! We'll keep you posted.",
+      "errorMessage": "Something went wrong. Please try again.",
+      "clickToSubscribe": "Click to open subscription form"
     }
   },
-  "mailer": {
-    "pageTitle": "Subscribe - UnlockIT",
-    "logo": "UnlockIT",
-    "title": "EnterIT - webinar",
-    "backButton": "← Back to EnterIT"
+  "about": {
+    "hero": {
+      "title": "About UnlockIT",
+      "subtitle": "We're passionate about making AI and IT education accessible to everyone. Our mission is to empower beginners with the knowledge and skills they need to succeed in the tech industry."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description1": "At UnlockIT, we believe that technology should be accessible to everyone, regardless of their background or experience level. We're dedicated to breaking down the barriers that prevent people from entering the exciting world of AI and IT.",
+      "description2": "Through our carefully crafted courses, expert instruction, and supportive community, we help beginners build confidence and develop practical skills that translate directly to real-world success."
+    },
+    "stats": {
+      "students": "Happy Students",
+      "satisfaction": "Satisfaction Rate",
+      "companies": "Partner Companies",
+      "years": "Years Experience"
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "quality": {
+        "title": "Quality Education",
+        "description": "We maintain the highest standards in our curriculum, ensuring every lesson is comprehensive, up-to-date, and industry-relevant."
+      },
+      "community": {
+        "title": "Supportive Community",
+        "description": "Learning is better together. We foster a welcoming environment where students can learn from each other and grow together."
+      },
+      "innovation": {
+        "title": "Continuous Innovation",
+        "description": "Technology evolves rapidly, and so do we. We constantly update our content and methods to stay ahead of industry trends."
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "Discover the key moments in UnlockIT's development"
+    },
+    "timeline": {
+      "event1": {
+        "year": "2011",
+        "title": "We start teaching",
+        "description": "We start teaching our first students and interns."
+      },
+      "event2": {
+        "year": "2017",
+        "title": "First conferences",
+        "description": "We start appearing at the first conferences and meetups."
+      },
+      "event3": {
+        "year": "2025",
+        "title": "UnlockIT",
+        "description": "We start officially as UnlockIT."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "subtitle": "Join our community of learners and take the first step towards your tech career.",
+      "viewCourses": "View Our Courses",
+      "meetInstructors": "Meet Our Instructors"
+    }
+  },
+  "instructors": {
+    "hero": {
+      "title": "Meet Our Instructors",
+      "subtitle": "Learn from industry experts who are passionate about teaching and dedicated to your success."
+    },
+    "michal": {
+      "role": "Lead Instructor & Founder",
+      "bio1": "With over 15 years of experience in the IT industry, Michał has worked on projects ranging from startup MVPs to enterprise-scale systems. His passion for teaching and mentoring has helped many students to start their careers in IT.",
+      "bio2": "Michał believes in practical, hands-on learning combined with solid theoretical foundations. His teaching philosophy centers on making complex concepts accessible and immediately applicable to real-world scenarios.",
+      "expertise": {
+        "ai": "Artificial Intelligence",
+        "programming": "Software Development",
+        "management": "Project Management",
+        "mentoring": "Career Mentoring"
+      },
+      "stats": {
+        "years": "Years Experience",
+        "students": "Students"
+      }
+    },
+    "philosophy": {
+      "title": "Our Teaching Philosophy",
+      "practical": {
+        "title": "Practical Learning",
+        "description": "Every concept is taught using real-world examples and practical projects."
+      },
+      "personalized": {
+        "title": "Personalized Approach",
+        "description": "We recognize that every student learns differently and adapt our teaching methods to individual needs and learning styles."
+      },
+      "industry": {
+        "title": "Industry-Relevant",
+        "description": "Our curriculum is constantly updated to reflect current industry trends and the skills that employers are actually looking for."
+      }
+    },
+    "joinTeam": {
+      "title": "Ready to Learn from the Best?",
+      "subtitle": "Join our community and start learning from experienced professionals who care about your success.",
+      "viewCourses": "View Our Courses",
+      "joinWebinar": "Join Free Webinar"
+    }
+  },
+  "aiFundamentals": {
+    "badge": "8-Week Course",
+    "hero": {
+      "title": "AI Fundamentals",
+      "subtitle": "Master the basics of Artificial Intelligence and Machine Learning. Perfect for beginners who want to understand AI and start building their first AI projects.",
+      "enrollButton": "Enroll Now",
+      "learnMoreButton": "Download Syllabus"
+    },
+    "stats": {
+      "weeks": "Weeks",
+      "lessons": "Lessons",
+      "projects": "Projects",
+      "access": "Lifetime Access"
+    },
+    "overview": {
+      "title": "What You'll Learn",
+      "description": "This comprehensive course covers everything you need to know to get started with AI and machine learning."
+    },
+    "features": {
+      "foundation": {
+        "title": "Strong Foundation",
+        "description": "Build a solid understanding of AI concepts, terminology, and mathematical foundations."
+      },
+      "practical": {
+        "title": "Hands-On Projects",
+        "description": "Apply your knowledge through guided projects using real datasets and industry-standard tools."
+      },
+      "mentorship": {
+        "title": "Expert Mentorship",
+        "description": "Get guidance from experienced AI professionals throughout your learning journey."
+      }
+    },
+    "curriculum": {
+      "title": "Course Curriculum",
+      "subtitle": "8 weeks of structured learning with practical projects"
+    },
+    "modules": {
+      "module1": {
+        "title": "Introduction to AI & Machine Learning",
+        "description": "Understanding what AI is, its applications, and the different types of machine learning.",
+        "lesson1": "What is Artificial Intelligence?",
+        "lesson2": "Types of Machine Learning",
+        "lesson3": "AI in Everyday Life"
+      },
+      "module2": {
+        "title": "Data and Algorithms",
+        "description": "Learn about data preparation, basic algorithms, and how machines learn from data.",
+        "lesson1": "Understanding Data",
+        "lesson2": "Basic Machine Learning Algorithms",
+        "lesson3": "Training Your First Model"
+      },
+      "module3": {
+        "title": "Practical AI Applications",
+        "description": "Build real AI projects and understand how to deploy and use AI in practical scenarios.",
+        "lesson1": "Image Recognition Project",
+        "lesson2": "Natural Language Processing",
+        "lesson3": "Building a Chatbot"
+      }
+    },
+    "instructor": {
+      "title": "Your Instructor",
+      "role": "AI Expert & Lead Instructor",
+      "bio": "Michał brings 15+ years of experience in software development and AI implementation. He has worked with startups and Fortune 500 companies to implement AI solutions.",
+      "learnMore": "Learn more about Michał"
+    },
+    "enrollment": {
+      "title": "Ready to Start Your AI Journey?",
+      "subtitle": "Join hundreds of students who have successfully learned AI fundamentals with us.",
+      "enrollButton": "Enroll in Course",
+      "webinarButton": "Attend Free Webinar",
+      "note": "30-day money-back guarantee • Lifetime access • Certificate of completion"
+    }
   }
 }
