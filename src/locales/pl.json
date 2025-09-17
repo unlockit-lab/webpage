@@ -14,7 +14,8 @@
     "viewCourses": "Zobacz Kursy",
     "students": "500+ Uczniów",
     "instructors": "Doświadczeni Instruktorzy",
-    "jobReady": "Umiejętności Gotowe do Pracy"
+    "jobReady": "Umiejętności Gotowe do Pracy",
+    "satisfaction": "100% satysfakcji"
   },
   "features": {
     "title": "Dlaczego wybrać UnlockIT?",
@@ -40,20 +41,15 @@
       "description": "Poznaj podstawy sztucznej inteligencji, koncepcje uczenia maszynowego i praktyczne zastosowania.",
       "duration": "8 tygodni"
     },
-    "webDevelopment": {
-      "title": "Rozwój Stron Internetowych",
-      "description": "Buduj nowoczesne strony internetowe z HTML, CSS, JavaScript i popularnymi frameworkami.",
+    "codingBasics": {
+      "title": "Podstawy programowania",
+      "description": "Programowanie na backend i frontend od zera.",
       "duration": "12 tygodni"
-    },
-    "itEssentials": {
-      "title": "Podstawy IT",
-      "description": "Opanuj niezbędne umiejętności IT, w tym sieć, bezpieczeństwo i administrację systemami.",
-      "duration": "10 tygodni"
     },
     "status": {
       "inPreparation": "W przygotowaniu",
       "comingSoon": "Zapisy wkrótce!",
-      "tba": "Do ustalenia",
+      "tba": "",
       "notifyButton": "Informuj mnie kiedy kurs będzie dostępny"
     }
   },
@@ -71,7 +67,7 @@
     "instructors": "Instruktorzy",
     "careers": "Kariera",
     "programmingBasics": "Podstawy Programowania",
-    "copyright": "2024 UnlockIT. Wszelkie prawa zastrzeżone."
+    "copyright": "2025 UnlockIT. Wszelkie prawa zastrzeżone."
   },
   "courseCards": {
     "aiBasics": "Podstawy AI",
@@ -197,29 +193,19 @@
     },
     "timeline": {
       "event1": {
-        "year": "2019",
-        "title": "Narodziny Wizji",
-        "description": "Michał Wroński dostrzega lukę w dostępie do jakościowej edukacji IT i AI. Rodzi się idea UnlockIT."
+        "year": "2011",
+        "title": "Zaczynamy uczyć",
+        "description": "Zaczynamy uczyć pierwszych studentów i praktykantów."
       },
       "event2": {
-        "year": "2020",
-        "title": "Pierwsi Studenci",
-        "description": "Rozpoczynamy z małą grupą oddanych studentów. Pierwsze kursy IT przyciągają zainteresowanych z całej Polski."
+        "year": "2017",
+        "title": "Pierwsze konferencje",
+        "description": "Zaczynamy pojawiać się na pierwszych konferencjach i meetupach."
       },
       "event3": {
-        "year": "2022",
-        "title": "Fokus na AI",
-        "description": "Wprowadzamy pionierskie kursy sztucznej inteligencji. Stajemy się liderem w edukacji AI dla początkujących."
-      },
-      "event4": {
-        "year": "2023",
-        "title": "Rozwój Społeczności",
-        "description": "Nasza społeczność rośnie do 500+ studentów. Praktyczne projekty i mentoring przynoszą rzeczywiste efekty."
-      },
-      "event5": {
-        "year": "2024",
-        "title": "Teraźniejszość",
-        "description": "Kontynuujemy innowacje i rozszerzamy ofertę, pomagając kolejnym osobom rozpocząć karierę w technologii."
+        "year": "2025",
+        "title": "UnlockIT",
+        "description": "Startujemy oficialnie jako UnlockIT."
       }
     },
     "cta": {
@@ -236,7 +222,7 @@
     },
     "michal": {
       "role": "Główny Instruktor i Założyciel",
-      "bio1": "Z ponad 15-letnim doświadczeniem w branży IT, Michał pracował nad projektami od startupowych MVP po systemy na skalę przedsiębiorstwa. Jego pasja do nauczania i mentoringu pomogła setkom studentów z powodzeniem przejść do karier technologicznych.",
+      "bio1": "Z ponad 15-letnim doświadczeniem w branży IT, Michał pracował nad projektami od startupowych MVP po systemy na skalę przedsiębiorstwa. Jego pasja do nauczania i mentoringu pomogła wielu studentom z powodzeniem rozpoczać karierię w IT.",
       "bio2": "Michał wierzy w praktyczną naukę połączoną z solidnymi podstawami teoretycznymi. Jego filozofia nauczania koncentruje się na udostępnianiu złożonych koncepcji i natychmiastowym zastosowaniu ich w scenariuszach z prawdziwego świata.",
       "expertise": {
         "ai": "Sztuczna Inteligencja",
@@ -246,14 +232,14 @@
       },
       "stats": {
         "years": "Lat Doświadczenia",
-        "students": "Nauczonych Studentów"
+        "students": "Studentów"
       }
     },
     "philosophy": {
       "title": "Nasza Filozofia Nauczania",
       "practical": {
         "title": "Praktyczna Nauka",
-        "description": "Każda koncepcja jest nauczana poprzez przykłady z prawdziwego świata i praktyczne projekty, które studenci mogą dodać do swoich portfolio."
+        "description": "Każda koncepcja jest nauczana na praktycznych przykładach i projektach."
       },
       "personalized": {
         "title": "Podejście Spersonalizowane",

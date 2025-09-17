@@ -25,12 +25,12 @@ const routes = [
     path: '/instructors',
     name: 'Instructors',
     component: Instructors,
-  },
-  {
-    path: '/courses/ai-fundamentals',
-    name: 'AIFundamentals',
-    component: AIFundamentals,
-  },
+  }
+  // {
+  //   path: '/courses/ai-fundamentals',
+  //   name: 'AIFundamentals',
+  //   component: AIFundamentals,
+  // },
 ]
 
 const router = createRouter({

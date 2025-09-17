@@ -37,8 +37,8 @@
               >{{ $t('nav.about') }}</router-link
             >
             <a
-              href="#contact"
-              class="text-gray-600 hover:text-primary-600 font-medium transition-colors"
+              :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`"
+              class="text-gray-600 hover:text-primary-600 font-medium transition-colors cursor-pointer"
               >{{ $t('nav.contact') }}</a
             >
 
@@ -122,7 +122,7 @@
             >{{ $t('nav.about') }}</router-link
           >
           <a
-            href="#contact"
+            :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`"
             class="block px-3 py-2 text-gray-600 hover:text-primary-600 font-medium"
             >{{ $t('nav.contact') }}</a
           >
@@ -209,21 +209,18 @@
             <h3 class="font-semibold mb-4">{{ $t('footer.courses') }}</h3>
             <ul class="space-y-2 text-gray-400">
               <li>
-                <router-link
+                <!-- <router-link
                   to="/courses/ai-fundamentals"
                   class="hover:text-white transition-colors"
-                  >{{ $t('courses.aiFundamentals.title') }}</router-link
-                >
+                  > -->
+                  {{ $t('courses.aiFundamentals.title') }}
+                  <!-- </router-link -->
               </li>
               <li>
-                <a href="#" class="hover:text-white transition-colors">{{
-                  $t('courses.webDevelopment.title')
-                }}</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-white transition-colors">{{
-                  $t('courses.itEssentials.title')
-                }}</a>
+                <!-- <a href="#" class="hover:text-white transition-colors"> -->
+                  {{
+                  $t('courses.codingBasics.title')}}
+                  <!-- </a> -->
               </li>
             </ul>
           </div>
@@ -231,9 +228,9 @@
             <h3 class="font-semibold mb-4">{{ $t('footer.company') }}</h3>
             <ul class="space-y-2 text-gray-400">
               <li>
-                <router-link to="/about" class="hover:text-white transition-colors">{{
-                  $t('footer.aboutUs')
-                }}</router-link>
+                <router-link to="/about" class="hover:text-white transition-colors">
+                  {{$t('footer.aboutUs')}}
+                </router-link>
               </li>
               <li>
                 <router-link
@@ -250,7 +247,7 @@
                 }}</router-link>
               </li>
               <li>
-                <a href="#" class="hover:text-white transition-colors">{{ $t('nav.contact') }}</a>
+                <a :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`" class="hover:text-white transition-colors text-left w-full">{{ $t('nav.contact') }}</a>
               </li>
             </ul>
           </div>
@@ -267,6 +264,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import config from './config'
 
 const { locale, t } = useI18n()
 const router = useRouter()

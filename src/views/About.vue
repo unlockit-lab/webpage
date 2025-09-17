@@ -33,7 +33,7 @@
             <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-xl">
               <div class="grid grid-cols-2 gap-6">
                 <div class="text-center">
-                  <div class="text-3xl font-bold text-primary-600 mb-2">500+</div>
+                  <div class="text-3xl font-bold text-primary-600 mb-2">100+</div>
                   <div class="text-sm text-gray-600">{{ $t('about.stats.students') }}</div>
                 </div>
                 <div class="text-center">
@@ -41,11 +41,11 @@
                   <div class="text-sm text-gray-600">{{ $t('about.stats.satisfaction') }}</div>
                 </div>
                 <div class="text-center">
-                  <div class="text-3xl font-bold text-purple-600 mb-2">50+</div>
+                  <div class="text-3xl font-bold text-purple-600 mb-2">10+</div>
                   <div class="text-sm text-gray-600">{{ $t('about.stats.companies') }}</div>
                 </div>
                 <div class="text-center">
-                  <div class="text-3xl font-bold text-orange-600 mb-2">10+</div>
+                  <div class="text-3xl font-bold text-orange-600 mb-2">15+</div>
                   <div class="text-sm text-gray-600">{{ $t('about.stats.years') }}</div>
                 </div>
               </div>
@@ -174,25 +174,27 @@
             </div>
 
             <!-- Event 2: First Students -->
-            <div class="relative flex items-center">
-              <div class="flex-1 pr-8"></div>
-              <div
-                class="relative z-10 w-4 h-4 bg-success-500 rounded-full border-4 border-white shadow-lg"
-              ></div>
-              <div class="flex-1 pl-8">
+            <a href="https://www.youtube.com/watch?v=-ffKVQzri-s" target="_blank">
+              <div class="relative flex items-center">
+                <div class="flex-1 pr-8"></div>
                 <div
-                  class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-success-500 hover:shadow-xl transition-shadow"
-                >
-                  <div class="text-sm font-semibold text-success-600 mb-2">
-                    {{ $t('about.timeline.event2.year') }}
+                  class="relative z-10 w-4 h-4 bg-success-500 rounded-full border-4 border-white shadow-lg"
+                ></div>
+                <div class="flex-1 pl-8">
+                  <div
+                    class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-success-500 hover:shadow-xl transition-shadow"
+                  >
+                    <div class="text-sm font-semibold text-success-600 mb-2">
+                      {{ $t('about.timeline.event2.year') }}
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                      {{ $t('about.timeline.event2.title') }}
+                    </h3>
+                    <p class="text-gray-600">{{ $t('about.timeline.event2.description') }}</p>
                   </div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">
-                    {{ $t('about.timeline.event2.title') }}
-                  </h3>
-                  <p class="text-gray-600">{{ $t('about.timeline.event2.description') }}</p>
                 </div>
               </div>
-            </div>
+            </a>
 
             <!-- Event 3: AI Focus -->
             <div class="relative flex items-center">
@@ -215,47 +217,6 @@
               <div class="flex-1 pl-8"></div>
             </div>
 
-            <!-- Event 4: Community Growth -->
-            <div class="relative flex items-center">
-              <div class="flex-1 pr-8"></div>
-              <div
-                class="relative z-10 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow-lg"
-              ></div>
-              <div class="flex-1 pl-8">
-                <div
-                  class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-orange-500 hover:shadow-xl transition-shadow"
-                >
-                  <div class="text-sm font-semibold text-orange-600 mb-2">
-                    {{ $t('about.timeline.event4.year') }}
-                  </div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">
-                    {{ $t('about.timeline.event4.title') }}
-                  </h3>
-                  <p class="text-gray-600">{{ $t('about.timeline.event4.description') }}</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Event 5: Present Day -->
-            <div class="relative flex items-center">
-              <div class="flex-1 pr-8 text-right">
-                <div
-                  class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-lg shadow-lg p-6 border-l-4 border-primary-600 hover:shadow-xl transition-shadow"
-                >
-                  <div class="text-sm font-semibold text-primary-600 mb-2">
-                    {{ $t('about.timeline.event5.year') }}
-                  </div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">
-                    {{ $t('about.timeline.event5.title') }}
-                  </h3>
-                  <p class="text-gray-600">{{ $t('about.timeline.event5.description') }}</p>
-                </div>
-              </div>
-              <div
-                class="relative z-10 w-6 h-6 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full border-4 border-white shadow-lg animate-pulse"
-              ></div>
-              <div class="flex-1 pl-8"></div>
-            </div>
           </div>
         </div>
       </div>
