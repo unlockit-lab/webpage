@@ -154,8 +154,8 @@
                   class="w-full h-full object-cover object-center"
                 />
               </div>
-              <!-- LinkedIn Badge -->
-              <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
+              <!-- Social Badges -->
+              <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
                 <a
                   href="https://www.linkedin.com/in/michal-wronski-b389a988/"
                   target="_blank"
@@ -168,6 +168,17 @@
                     />
                   </svg>
                   <span>LinkedIn</span>
+                </a>
+                <a
+                  href="https://bigmikesolutions.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center space-x-2 bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-900 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                >
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                  </svg>
+                  <span>BMS</span>
                 </a>
               </div>
             </div>
