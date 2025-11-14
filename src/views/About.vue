@@ -173,7 +173,7 @@
                   href="https://bigmikesolutions.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex items-center space-x-2 bg-white border border-gray-300 px-3 py-2 rounded-full text-sm font-medium hover:border-gray-400 hover:bg-gray-50 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  class="inline-flex items-center space-x-2 bg-white border border-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:border-gray-400 hover:bg-gray-50 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fe4383f33e8de4068b08ee337c7303d25%2F97b518cdac394b759f8550b40197d25a?format=webp&width=800"
