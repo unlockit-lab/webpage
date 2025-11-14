@@ -53,6 +53,12 @@
       "notifyButton": "Notify me when course is available"
     }
   },
+  "prelectures": {
+    "title": "Prelectures",
+    "subtitle": "Free lectures and tips from our expert instructors",
+    "videoTitle": "EnterIT - How to Break Into IT",
+    "videoDescription": "Learn how to start your tech career and achieve success"
+  },
   "cta": {
     "title": "Ready to Start Your Tech Journey?",
     "subtitle": "Join hundreds of students who have already transformed their careers with UnlockIT.",
