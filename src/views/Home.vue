@@ -310,7 +310,7 @@
                 {{ $t('courses.status.notifyButton') }}
               </button>
             </div>
-          </div>  
+          </div>
 
           <div
             class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group relative"
@@ -356,9 +356,7 @@
               </div>
               <div class="flex items-center justify-between mb-4">
                 <span class="text-2xl font-bold text-gray-400">{{ $t('courses.status.tba') }}</span>
-                <span class="text-sm text-gray-500">{{
-                  $t('courses.codingBasics.duration')
-                }}</span>
+                <span class="text-sm text-gray-500">{{ $t('courses.codingBasics.duration') }}</span>
               </div>
               <button
                 class="w-full bg-success-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-success-700 transition-colors flex items-center justify-center gap-2"
@@ -371,7 +369,6 @@
                 {{ $t('courses.status.notifyButton') }}
               </button>
             </div>
-
           </div>
         </div>
       </div>
@@ -390,7 +387,9 @@
         </div>
 
         <div class="max-w-4xl mx-auto">
-          <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <div
+            class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow"
+          >
             <!-- Video Thumbnail -->
             <img
               src="https://img.youtube.com/vi/-ffKVQzri-s/maxresdefault.jpg"
@@ -406,16 +405,22 @@
               class="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/50 transition-colors group"
             >
               <div class="relative">
-                <div class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center shadow-xl transform group-hover:scale-110 transition-transform">
+                <div
+                  class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center shadow-xl transform group-hover:scale-110 transition-transform"
+                >
                   <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                    <path
+                      d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"
+                    />
                   </svg>
                 </div>
               </div>
             </a>
 
             <!-- Video Title Overlay -->
-            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/50 to-transparent p-6">
+            <div
+              class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/50 to-transparent p-6"
+            >
               <h3 class="text-xl sm:text-2xl font-bold text-white">
                 {{ $t('prelectures.videoTitle') }}
               </h3>
@@ -436,9 +441,9 @@
 const scrollToElement = (elementID: string) => {
   const featuresSection = document.getElementById(elementID)
   if (featuresSection) {
-    featuresSection.scrollIntoView({ 
+    featuresSection.scrollIntoView({
       behavior: 'smooth',
-      block: 'start'
+      block: 'start',
     })
   }
 }
