@@ -53,6 +53,12 @@
       "notifyButton": "Informuj mnie kiedy kurs będzie dostępny"
     }
   },
+  "prelectures": {
+    "title": "Prelekcje",
+    "subtitle": "Bezpłatne wykłady i porady od naszych ekspertów",
+    "videoTitle": "EnterIT - Jak wejść do branży IT",
+    "videoDescription": "Dowiedz się, jak rozpocząć karierę w technologii i osiągnąć sukces"
+  },
   "cta": {
     "title": "Gotowy na Rozpoczęcie Swojej Przygody z Technologią?",
     "subtitle": "Dołącz do setek uczniów, którzy już przekształcili swoje kariery dzięki UnlockIT.",
@@ -138,7 +144,7 @@
       "subtitle": "Ucz się od eksperta branżowego z udowodnionymi wynikami",
       "name": "Michał Wroński",
       "role": "Senior Coach Kariery IT i Założyciel UnlockIT",
-      "bio": "15+ lat doświadczenia w branży IT - tysiące linii kodu produkcyjnego, tuziny projektów i setka praktykantów. Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne i realne porady.",
+      "bio": "15+ lat doświadczenia w bran��y IT - tysiące linii kodu produkcyjnego, tuziny projektów i setka praktykantów. Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne i realne porady.",
       "experience": "Ponad 15 Lat Doświadczenia",
       "expertise1": "Coaching Kariery",
       "expertise2": "AI i Technologia",
@@ -261,7 +267,7 @@
     "badge": "8-Tygodniowy Kurs",
     "hero": {
       "title": "Podstawy AI",
-      "subtitle": "Opanuj podstawy Sztucznej Inteligencji i Uczenia Maszynowego. Idealny dla początkujących, którzy chcą zrozumieć AI i zacząć budować swoje pierwsze projekty AI.",
+      "subtitle": "Opanuj podstawy Sztucznej Inteligencji i Uczenia Maszynowego. Idealny dla początkuj��cych, którzy chcą zrozumieć AI i zacząć budować swoje pierwsze projekty AI.",
       "enrollButton": "Zapisz się Teraz",
       "learnMoreButton": "Pobierz Program"
     },
