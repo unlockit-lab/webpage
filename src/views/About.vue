@@ -131,6 +131,100 @@
       </div>
     </section>
 
+    <!-- Our Team Section -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            {{ $t('about.team.title') }}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {{ $t('about.team.subtitle') }}
+          </p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center gap-12 max-w-5xl mx-auto">
+          <!-- Profile Image -->
+          <div class="lg:w-1/3 flex-shrink-0">
+            <div class="relative">
+              <div class="w-64 h-64 rounded-full mx-auto shadow-2xl overflow-hidden bg-gray-100">
+                <img
+                  src="/images/michal-wronski.jpg"
+                  alt="Michał Wroński"
+                  class="w-full h-full object-cover object-center"
+                />
+              </div>
+              <!-- LinkedIn Badge -->
+              <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
+                <a
+                  href="https://www.linkedin.com/in/michal-wronski-b389a988/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                >
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                    />
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Information -->
+          <div class="lg:w-2/3 text-center lg:text-left">
+            <h3 class="text-3xl font-bold text-gray-900 mb-2">
+              {{ $t('about.team.expert.name') }}
+            </h3>
+            <p class="text-lg text-primary-600 font-semibold mb-4">
+              {{ $t('about.team.expert.role') }}
+            </p>
+            <p class="text-gray-600 leading-relaxed mb-6 text-lg">
+              {{ $t('about.team.expert.bio') }}
+            </p>
+
+            <!-- Expertise Tags -->
+            <div class="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
+              <span
+                class="inline-block bg-primary-100 text-primary-800 text-sm font-medium px-3 py-1 rounded-full"
+              >
+                {{ $t('about.team.expert.experience') }}
+              </span>
+              <span
+                class="inline-block bg-success-100 text-success-800 text-sm font-medium px-3 py-1 rounded-full"
+              >
+                {{ $t('about.team.expert.expertise1') }}
+              </span>
+              <span
+                class="inline-block bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full"
+              >
+                {{ $t('about.team.expert.expertise2') }}
+              </span>
+            </div>
+
+            <!-- LinkedIn Link for larger screens -->
+            <div class="hidden lg:block">
+              <a
+                href="https://www.linkedin.com/in/michal-wronski-b389a988/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+                <span>{{ $t('about.team.expert.viewProfile') }}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Story Timeline Section -->
     <section class="py-16">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
