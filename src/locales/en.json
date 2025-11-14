@@ -193,6 +193,19 @@
         "description": "Technology evolves rapidly, and so do we. We constantly update our content and methods to stay ahead of industry trends."
       }
     },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the experts behind UnlockIT",
+      "expert": {
+        "name": "Michał Wroński",
+        "role": "Founder & IT Career Coach",
+        "bio": "Michał is an education enthusiast with over 10 years of experience in the IT industry and recruitment. He specializes in helping beginners enter the technology job market and developing skills related to artificial intelligence.",
+        "experience": "10+ years of experience",
+        "expertise1": "IT Recruitment",
+        "expertise2": "AI & Machine Learning",
+        "viewProfile": "View profile on LinkedIn"
+      }
+    },
     "story": {
       "title": "Our Story",
       "subtitle": "Discover the key moments in UnlockIT's development"
