@@ -173,12 +173,14 @@
                   href="https://bigmikesolutions.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex items-center space-x-2 bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-900 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  class="inline-flex items-center space-x-2 bg-white border border-gray-300 px-3 py-2 rounded-full text-sm font-medium hover:border-gray-400 hover:bg-gray-50 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
-                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z" />
-                  </svg>
-                  <span>BMS</span>
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fe4383f33e8de4068b08ee337c7303d25%2F97b518cdac394b759f8550b40197d25a?format=webp&width=800"
+                    alt="BMS"
+                    class="w-4 h-4 rounded"
+                  />
+                  <span class="text-gray-800">BMS</span>
                 </a>
               </div>
             </div>
