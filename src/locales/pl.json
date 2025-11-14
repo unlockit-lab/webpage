@@ -144,7 +144,7 @@
       "subtitle": "Ucz się od eksperta branżowego z udowodnionymi wynikami",
       "name": "Michał Wroński",
       "role": "Senior Coach Kariery IT i Założyciel UnlockIT",
-      "bio": "15+ lat doświadczenia w bran��y IT - tysiące linii kodu produkcyjnego, tuziny projektów i setka praktykantów. Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne i realne porady.",
+      "bio": "15+ lat doświadczenia w branży IT - tysiące linii kodu produkcyjnego, tuziny projektów i setka praktykantów. Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne i realne porady.",
       "experience": "Ponad 15 Lat Doświadczenia",
       "expertise1": "Coaching Kariery",
       "expertise2": "AI i Technologia",
@@ -191,6 +191,19 @@
       "innovation": {
         "title": "Ciągła Innowacja",
         "description": "Technologia rozwija się szybko, a my razem z nią. Stale aktualizujemy nasze treści i metody, aby wyprzedzać trendy branżowe."
+      }
+    },
+    "team": {
+      "title": "Nasz Zespół",
+      "subtitle": "Poznaj ekspertów za UnlockIT",
+      "expert": {
+        "name": "Michał Wroński",
+        "role": "Founder & IT Career Coach",
+        "bio": "Michał jest pasjonatem edukacji z ponad 10-letnim doświadczeniem w branży IT i rekrutacji. Specjalizuje się w pomaganiu początkującym w wejściu na rynek pracy technologicznego oraz w rozwijaniu umiejętności związanych z sztuczną inteligencją.",
+        "experience": "10+ lat doświadczenia",
+        "expertise1": "IT Recruitment",
+        "expertise2": "AI & Machine Learning",
+        "viewProfile": "Wyświetl profil na LinkedIn"
       }
     },
     "story": {
@@ -267,7 +280,7 @@
     "badge": "8-Tygodniowy Kurs",
     "hero": {
       "title": "Podstawy AI",
-      "subtitle": "Opanuj podstawy Sztucznej Inteligencji i Uczenia Maszynowego. Idealny dla początkuj��cych, którzy chcą zrozumieć AI i zacząć budować swoje pierwsze projekty AI.",
+      "subtitle": "Opanuj podstawy Sztucznej Inteligencji i Uczenia Maszynowego. Idealny dla początkujących, którzy chcą zrozumieć AI i zacząć budować swoje pierwsze projekty AI.",
       "enrollButton": "Zapisz się Teraz",
       "learnMoreButton": "Pobierz Program"
     },
