@@ -53,6 +53,12 @@
       "notifyButton": "Notify me when course is available"
     }
   },
+  "prelectures": {
+    "title": "Prelectures",
+    "subtitle": "Free lectures and tips from our expert instructors",
+    "videoTitle": "EnterIT - How to Break Into IT",
+    "videoDescription": "Learn how to start your tech career and achieve success"
+  },
   "cta": {
     "title": "Ready to Start Your Tech Journey?",
     "subtitle": "Join hundreds of students who have already transformed their careers with UnlockIT.",
@@ -185,6 +191,19 @@
       "innovation": {
         "title": "Continuous Innovation",
         "description": "Technology evolves rapidly, and so do we. We constantly update our content and methods to stay ahead of industry trends."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the experts behind UnlockIT",
+      "expert": {
+        "name": "Michał Wroński",
+        "role": "Founder & IT Career Coach",
+        "bio": "Michał is an education enthusiast with over 10 years of experience in the IT industry and recruitment. He specializes in helping beginners enter the technology job market and developing skills related to artificial intelligence.",
+        "experience": "10+ years of experience",
+        "expertise1": "IT Recruitment",
+        "expertise2": "AI & Machine Learning",
+        "viewProfile": "View profile on LinkedIn"
       }
     },
     "story": {
