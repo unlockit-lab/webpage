@@ -376,6 +376,57 @@
         </div>
       </div>
     </section>
+
+    <!-- Prelectures Section -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            {{ $t('prelectures.title') }}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {{ $t('prelectures.subtitle') }}
+          </p>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+          <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+            <!-- Video Thumbnail -->
+            <img
+              src="https://img.youtube.com/vi/-ffKVQzri-s/maxresdefault.jpg"
+              alt="EnterIT - Jak wejść do branży IT"
+              class="w-full h-auto block"
+            />
+
+            <!-- Play Button Overlay -->
+            <a
+              href="https://www.youtube.com/watch?v=-ffKVQzri-s"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/50 transition-colors group"
+            >
+              <div class="relative">
+                <div class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center shadow-xl transform group-hover:scale-110 transition-transform">
+                  <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+
+            <!-- Video Title Overlay -->
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/50 to-transparent p-6">
+              <h3 class="text-xl sm:text-2xl font-bold text-white">
+                {{ $t('prelectures.videoTitle') }}
+              </h3>
+              <p class="text-sm text-gray-200 mt-2">
+                {{ $t('prelectures.videoDescription') }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
