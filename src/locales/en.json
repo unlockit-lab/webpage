@@ -149,17 +149,6 @@
         "point3": "Stay updated with the latest technologies and trends"
       }
     },
-    "speaker": {
-      "title": "Meet Your Speaker",
-      "subtitle": "Learn from an industry expert with proven results",
-      "name": "Michał Wroński",
-      "role": "Senior IT Career Coach & UnlockIT Founder",
-      "bio": "15+ years of experience in the IT industry - thousands of lines of production code, dozens of projects, and hundreds of interns. Michał will share insider knowledge and proven strategies that work in today's competitive market. As a seasoned professional, he understands the challenges of breaking into IT and will provide practical, actionable advice.",
-      "experience": "15+ Years Experience",
-      "expertise1": "Career Coaching",
-      "expertise2": "AI & Technology",
-      "viewProfile": "View LinkedIn Profile"
-    },
     "finalCta": {
       "title": "Ready to Launch Your IT Career?",
       "subtitle": "Subscribe today and receive a free gift after the webinar.",
@@ -208,12 +197,12 @@
       "subtitle": "Meet the experts behind UnlockIT",
       "expert": {
         "name": "Michał Wroński",
-        "role": "Founder & IT Career Coach",
-        "bio": "Michał is an education enthusiast with over 10 years of experience in the IT industry and recruitment. He specializes in helping beginners enter the technology job market and developing skills related to artificial intelligence.",
-        "experience": "10+ years of experience",
-        "expertise1": "IT Recruitment",
-        "expertise2": "AI & Machine Learning",
-        "viewProfile": "View profile on LinkedIn"
+        "role": "Senior Developer & UnlockIT Founder",
+        "bio": "15+ years of experience in the IT industry - thousands of lines of production code, dozens of projects, and hundreds of interns. Michał will share insider knowledge and proven strategies that work in today's competitive market. As a seasoned professional, he understands the challenges of breaking into IT and will provide practical, actionable advice.",
+        "experience": "15+ Years Experience",
+        "expertise1": "Backend Developer",
+        "expertise2": "AI",
+        "viewProfile": "View LinkedIn Profile"
       }
     },
     "story": {

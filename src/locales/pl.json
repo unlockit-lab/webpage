@@ -149,17 +149,6 @@
         "point3": "Bądź na bieżąco z najnowszymi technologiami i trendami"
       }
     },
-    "speaker": {
-      "title": "Poznaj Prelegenta",
-      "subtitle": "Ucz się od eksperta branżowego z udowodnionymi wynikami",
-      "name": "Michał Wroński",
-      "role": "Senior Coach Kariery IT i Założyciel UnlockIT",
-      "bio": "15+ lat doświadczenia w branży IT - tysiące linii kodu produkcyjnego, tuziny projektów i setka praktykantów. Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne i realne porady.",
-      "experience": "Ponad 15 Lat Doświadczenia",
-      "expertise1": "Coaching Kariery",
-      "expertise2": "AI i Technologia",
-      "viewProfile": "Zobacz Profil LinkedIn"
-    },
     "finalCta": {
       "title": "Gotowy na Rozpoczęcie Kariery w IT?",
       "subtitle": "Zapisz się na już dziś i otrzymaj prezent po webinarze.",
@@ -208,12 +197,12 @@
       "subtitle": "Poznaj ekspertów za UnlockIT",
       "expert": {
         "name": "Michał Wroński",
-        "role": "Founder & IT Career Coach",
-        "bio": "Michał jest pasjonatem edukacji z ponad 10-letnim doświadczeniem w branży IT i rekrutacji. Specjalizuje się w pomaganiu początkującym w wejściu na rynek pracy technologicznego oraz w rozwijaniu umiejętności związanych z sztuczną inteligencją.",
-        "experience": "10+ lat doświadczenia",
-        "expertise1": "IT Recruitment",
-        "expertise2": "AI & Machine Learning",
-        "viewProfile": "Wyświetl profil na LinkedIn"
+        "role": "Senior Developer & Założyciel UnlockIT",
+        "bio": "15+ lat doświadczenia w branży IT - tysiące linii kodu produkcyjnego, tuziny projektów i setka praktykantów. Michał podzieli się wiedzą z pierwszej ręki i sprawdzonymi strategiami, które działają na dzisiejszym konkurencyjnym rynku. Jako doświadczony profesjonalista, rozumie wyzwania związane z wejściem do branży IT i zapewni praktyczne i realne porady.",
+        "experience": "15+ lat doświadczenia",
+        "expertise1": "Backend Developer",
+        "expertise2": "AI",
+        "viewProfile": "Zobacz Profil LinkedIn"
       }
     },
     "story": {
