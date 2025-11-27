@@ -254,6 +254,18 @@
         </div>
         <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {{ $t('footer.copyright') }}</p>
+          <div class="mt-4 flex items-center justify-center gap-2">
+            <span class="text-sm">Powered by</span>
+            <a
+              href="https://bigmikesolutions.pl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-1.5 hover:text-white transition-colors"
+            >
+              <img src="/bigmikesolutions-favicon.svg" alt="BigMikeSolutions" class="w-5 h-5" />
+              <span class="text-sm font-medium">BigMikeSolutions</span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
