@@ -405,105 +405,7 @@
     </section>
 
     <!-- Speaker Section -->
-    <section class="py-16">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            {{ $t('enterit.speaker.title') }}
-          </h2>
-          <p class="text-xl text-gray-600">
-            {{ $t('enterit.speaker.subtitle') }}
-          </p>
-        </div>
-
-        <div class="flex flex-col lg:flex-row items-center gap-12 max-w-5xl mx-auto">
-          <div class="lg:w-1/3">
-            <div class="relative">
-              <div class="w-64 h-64 rounded-full mx-auto shadow-2xl overflow-hidden bg-gray-100">
-                <!-- Profile Image -->
-                <img
-                  src="/images/michal-wronski.jpg"
-                  alt="Michał Wroński - IT Career Coach"
-                  class="w-full h-full object-cover object-center"
-                  @error="handleImageError"
-                />
-                <!-- Fallback SVG (hidden by default, shown if image fails) -->
-                <div
-                  v-if="showFallback"
-                  class="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center"
-                >
-                  <svg class="w-32 h-32 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <!-- LinkedIn Badge -->
-              <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
-                <a
-                  href="https://www.linkedin.com/in/michal-wronski-b389a988/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                >
-                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                    />
-                  </svg>
-                  <span>LinkedIn</span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="lg:w-2/3 text-center lg:text-left mt-8 lg:mt-0">
-            <h3 class="text-2xl font-bold text-gray-900 mb-2">{{ $t('enterit.speaker.name') }}</h3>
-            <p class="text-lg text-primary-600 font-semibold mb-4">
-              {{ $t('enterit.speaker.role') }}
-            </p>
-            <p class="text-gray-600 leading-relaxed mb-6">
-              {{ $t('enterit.speaker.bio') }}
-            </p>
-            <div class="flex flex-wrap justify-center lg:justify-start gap-3 mb-4">
-              <span
-                class="inline-block bg-primary-100 text-primary-800 text-sm font-medium px-3 py-1 rounded-full"
-              >
-                {{ $t('enterit.speaker.experience') }}
-              </span>
-              <span
-                class="inline-block bg-success-100 text-success-800 text-sm font-medium px-3 py-1 rounded-full"
-              >
-                {{ $t('enterit.speaker.expertise1') }}
-              </span>
-              <span
-                class="inline-block bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full"
-              >
-                {{ $t('enterit.speaker.expertise2') }}
-              </span>
-            </div>
-            <!-- LinkedIn Link for larger screens -->
-            <div class="hidden lg:block">
-              <a
-                href="https://www.linkedin.com/in/michal-wronski-b389a988/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-medium transition-colors"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path
-                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                  />
-                </svg>
-                <span>{{ $t('enterit.speaker.viewProfile') }}</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <SpeakerProfile translation-prefix="about.team.expert" title-prefix="about.team" />
 
     <!-- Final CTA Section -->
     <section class="py-16 bg-gradient-to-br from-primary-600 to-primary-800">
@@ -532,6 +434,7 @@
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import config from '../config'
+import SpeakerProfile from '@/components/SpeakerProfile.vue'
 
 const { t, locale } = useI18n()
 
@@ -585,13 +488,6 @@ const webinarDate = computed(() => {
   })
   return date
 })
-
-// Profile image error handling
-const showFallback = ref(false)
-
-const handleImageError = () => {
-  showFallback.value = true
-}
 
 const scrollToSubscription = () => {
   const subscriptionForm = document.getElementById('subscription-form')

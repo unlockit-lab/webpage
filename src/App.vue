@@ -213,14 +213,13 @@
                   to="/courses/ai-fundamentals"
                   class="hover:text-white transition-colors"
                   > -->
-                  {{ $t('courses.aiFundamentals.title') }}
-                  <!-- </router-link -->
+                {{ $t('courses.aiFundamentals.title') }}
+                <!-- </router-link -->
               </li>
               <li>
                 <!-- <a href="#" class="hover:text-white transition-colors"> -->
-                  {{
-                  $t('courses.codingBasics.title')}}
-                  <!-- </a> -->
+                {{ $t('courses.codingBasics.title') }}
+                <!-- </a> -->
               </li>
             </ul>
           </div>
@@ -229,7 +228,7 @@
             <ul class="space-y-2 text-gray-400">
               <li>
                 <router-link to="/about" class="hover:text-white transition-colors">
-                  {{$t('footer.aboutUs')}}
+                  {{ $t('footer.aboutUs') }}
                 </router-link>
               </li>
               <li>
@@ -247,13 +246,29 @@
                 }}</router-link>
               </li>
               <li>
-                <a :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`" class="hover:text-white transition-colors text-left w-full">{{ $t('nav.contact') }}</a>
+                <a
+                  :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`"
+                  class="hover:text-white transition-colors text-left w-full"
+                  >{{ $t('nav.contact') }}</a
+                >
               </li>
             </ul>
           </div>
         </div>
         <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {{ $t('footer.copyright') }}</p>
+          <div class="mt-4 flex items-center justify-center gap-2">
+            <span class="text-sm">Powered by</span>
+            <a
+              href="https://bigmikesolutions.pl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-1.5 hover:text-white transition-colors"
+            >
+              <img src="/bigmikesolutions-favicon.svg" alt="BigMikeSolutions" class="w-5 h-5" />
+              <span class="text-sm font-medium">BigMikeSolutions</span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
