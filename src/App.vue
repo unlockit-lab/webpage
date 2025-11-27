@@ -213,14 +213,13 @@
                   to="/courses/ai-fundamentals"
                   class="hover:text-white transition-colors"
                   > -->
-                  {{ $t('courses.aiFundamentals.title') }}
-                  <!-- </router-link -->
+                {{ $t('courses.aiFundamentals.title') }}
+                <!-- </router-link -->
               </li>
               <li>
                 <!-- <a href="#" class="hover:text-white transition-colors"> -->
-                  {{
-                  $t('courses.codingBasics.title')}}
-                  <!-- </a> -->
+                {{ $t('courses.codingBasics.title') }}
+                <!-- </a> -->
               </li>
             </ul>
           </div>
@@ -229,7 +228,7 @@
             <ul class="space-y-2 text-gray-400">
               <li>
                 <router-link to="/about" class="hover:text-white transition-colors">
-                  {{$t('footer.aboutUs')}}
+                  {{ $t('footer.aboutUs') }}
                 </router-link>
               </li>
               <li>
@@ -247,7 +246,11 @@
                 }}</router-link>
               </li>
               <li>
-                <a :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`" class="hover:text-white transition-colors text-left w-full">{{ $t('nav.contact') }}</a>
+                <a
+                  :href="`mailto:${config.contact.email}?subject=Contact from UnlockIT website`"
+                  class="hover:text-white transition-colors text-left w-full"
+                  >{{ $t('nav.contact') }}</a
+                >
               </li>
             </ul>
           </div>
