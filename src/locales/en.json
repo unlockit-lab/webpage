@@ -58,6 +58,11 @@
     "subtitle": "Free lectures and tips from our expert instructors",
     "movies": [
       {
+        "videoTitle": "Apple Memory Integrity Enforcmenet (MIE): How iPhone protects memory from attacks",
+        "videoDescription": "Types of memory errors and how Apple protects devices from attacks.",
+        "videoLink": "https://www.youtube.com/watch?v=zyOrLgHEE6I"
+      },
+      {
         "videoTitle": "Modern DevOps with Kubernetes",
         "videoDescription": "Kubernetes and DevOps basics for microservices",
         "videoLink": "https://youtu.be/-ffKVQzri-s?si=v6BD_Ei3jiigV63q"
