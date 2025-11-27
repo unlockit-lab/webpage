@@ -386,47 +386,53 @@
           </p>
         </div>
 
-        <div class="max-w-4xl mx-auto">
-          <div
-            class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow"
-          >
-            <!-- Video Thumbnail -->
-            <img
-              src="https://img.youtube.com/vi/-ffKVQzri-s/maxresdefault.jpg"
-              alt="EnterIT - Jak wejść do branży IT"
-              class="w-full h-auto block"
-            />
-
-            <!-- Play Button Overlay -->
-            <a
-              href="https://www.youtube.com/watch?v=-ffKVQzri-s"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/50 transition-colors group"
+        <div class="max-w-7xl mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              v-for="(video, index) in videos"
+              :key="index"
+              class="flex flex-col gap-4"
             >
-              <div class="relative">
-                <div
-                  class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center shadow-xl transform group-hover:scale-110 transition-transform"
+              <div class="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  :src="getEmbedUrl(video.videoLink)"
+                  :title="video.videoTitle"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="border-0"
+                ></iframe>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900">
+                  {{ video.videoTitle }}
+                </h3>
+                <p class="mt-1 text-sm text-gray-600">
+                  {{ video.videoDescription }}
+                </p>
+                <a
+                  :href="video.videoLink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-2 inline-flex items-center text-sm text-primary-600 hover:text-primary-700"
                 >
-                  <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 20 20">
+                  Watch on YouTube
+                  <svg
+                    class="ml-1 h-4 w-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
-                      d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                     />
                   </svg>
-                </div>
+                </a>
               </div>
-            </a>
-
-            <!-- Video Title Overlay -->
-            <div
-              class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/50 to-transparent p-6"
-            >
-              <h3 class="text-xl sm:text-2xl font-bold text-white">
-                {{ $t('prelectures.videoTitle') }}
-              </h3>
-              <p class="text-sm text-gray-200 mt-2">
-                {{ $t('prelectures.videoDescription') }}
-              </p>
             </div>
           </div>
         </div>
@@ -436,7 +442,27 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import en from '../locales/en.json'
+import pl from '../locales/pl.json'
+
 // Home page content - extracted from main App.vue
+
+interface Video {
+  videoTitle: string
+  videoDescription: string
+  videoLink: string
+}
+
+const { t, locale } = useI18n()
+
+const videos = computed<Video[]>(() => {
+  const currentLocale = locale.value
+  const messages = currentLocale === 'pl' ? pl : en
+  const videoArray = (messages as any).prelectures?.movies
+  return Array.isArray(videoArray) ? videoArray : []
+})
 
 const scrollToElement = (elementID: string) => {
   const featuresSection = document.getElementById(elementID)
@@ -446,5 +472,12 @@ const scrollToElement = (elementID: string) => {
       block: 'start',
     })
   }
+}
+
+const getEmbedUrl = (videoLink: string): string => {
+  // Extract video ID from YouTube URL
+  const videoIdMatch = videoLink.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/)
+  const videoId = videoIdMatch ? videoIdMatch[1] : ''
+  return `https://www.youtube.com/embed/${videoId}`
 }
 </script>

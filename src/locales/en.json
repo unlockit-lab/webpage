@@ -56,8 +56,13 @@
   "prelectures": {
     "title": "Prelectures",
     "subtitle": "Free lectures and tips from our expert instructors",
-    "videoTitle": "EnterIT - How to Break Into IT",
-    "videoDescription": "Learn how to start your tech career and achieve success"
+    "movies": [
+      {
+        "videoTitle": "Modern DevOps with Kubernetes",
+        "videoDescription": "Kubernetes and DevOps basics for microservices",
+        "videoLink": "https://youtu.be/-ffKVQzri-s?si=v6BD_Ei3jiigV63q"
+      }
+    ]
   },
   "cta": {
     "title": "Ready to Start Your Tech Journey?",

@@ -56,8 +56,18 @@
   "prelectures": {
     "title": "Prelekcje",
     "subtitle": "Bezpłatne wykłady i porady od naszych ekspertów",
-    "videoTitle": "EnterIT - Jak wejść do branży IT",
-    "videoDescription": "Dowiedz się, jak rozpocząć karierę w technologii i osiągnąć sukces"
+    "movies": [
+      {
+        "videoTitle": "Apple Memory Integrity Enforcmenet (MIE): Jak iPhone chroni pamięć przed atakami",
+        "videoDescription": "Rodzaje błędów związanych z pamięcią i jak Apple chroni urządzenia przed atakami.",
+        "videoLink": "https://www.youtube.com/watch?v=zyOrLgHEE6I"
+      }, 
+      {
+        "videoTitle": "Modern DevOps with Kubernetes",
+        "videoDescription": "Podstawy Kubernetes i DevOps dla mikroserwisów",
+        "videoLink": "https://youtu.be/-ffKVQzri-s?si=v6BD_Ei3jiigV63q"
+      }
+    ]
   },
   "cta": {
     "title": "Gotowy na Rozpoczęcie Swojej Przygody z Technologią?",
