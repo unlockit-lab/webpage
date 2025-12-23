@@ -58,6 +58,11 @@
     "subtitle": "Free lectures and tips from our expert instructors",
     "movies": [
       {
+        "videoTitle": "The AI Revolution is already here. Do you really need to fear for your job?",
+        "videoDescription": "An attempt at a sober look at the current development of AI and all the hype surrounding it. Will AI take our jobs? No one has a definitive answer today — but one thing is certain: it won't happen tomorrow. Watch the video and find out why.",
+        "videoLink": "https://youtu.be/SOOdUbEYkKw?si=_iHFsyt_Dwo32Qp7"
+      },
+      {
         "videoTitle": "Apple Memory Integrity Enforcmenet (MIE): How iPhone protects memory from attacks",
         "videoDescription": "Types of memory errors and how Apple protects devices from attacks.",
         "videoLink": "https://www.youtube.com/watch?v=zyOrLgHEE6I"
